@@ -26,3 +26,7 @@
 /fabricloader.log
 /realms_persistence.json
 /servers.dat
+/dynamic-resource-pack-cache
+/dynamic-data-pack-cache
+/etched-cache
+/moddata
