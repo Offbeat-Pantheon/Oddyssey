@@ -95,6 +95,18 @@ ServerEvents.recipes(e => {
                     'minecraft:brick'         
     ),
 
+    // - no man's land
+    e.replaceInput(
+         {output: 'nomansland:walnut_palisade' }, 
+                    'nomansland:walnut_log',           
+                    'bountifulfares:walnut_log'         
+    ),
+    e.replaceInput(
+         {output: 'nomansland:stripped_walnut_palisade' }, 
+                    'nomansland:stripped_walnut_log',           
+                    'bountifulfares:stripped_walnut_log'         
+    ),
+
     // - farmers delight
     e.replaceInput(
          {output: 'farmersdelight:wheat_dough' }, 
@@ -126,6 +138,20 @@ ServerEvents.recipes(e => {
     e.remove({ id: 'farmersdelight:bread_from_smoking'})
     
 
+    e.remove({ id: 'arts_and_crafts:cork' }),
+    e.shaped(
+        Item.of('arts_and_crafts:cork', 4), 
+        [
+            'PPP',
+            'PSP',
+            'PPP',
+
+        ],
+    {
+        p: '#minecraft:planks',
+        S: 'minecraft:sponge',  
+    }
+    ),
 
     e.remove({ id: 'heartstone:heartstone' }),
     e.shaped(
@@ -140,6 +166,7 @@ ServerEvents.recipes(e => {
     }
     ),
     
+
     
 
   console.log('Hello! The recipe event has fired!')

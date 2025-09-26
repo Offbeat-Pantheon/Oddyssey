@@ -98,6 +98,9 @@
     "sweety_garden:wood_anemone",
     "sweety_garden:wood_sorrel",
     "sweety_garden:passion_flower",
+
+    // - woodtypes
+    "acacia",
     
 
     
@@ -112,6 +115,9 @@
 
 
 // Below are some utility functions to quickly add things in multiple wood types/colours, you could expand this to toolsets or ingot types
+const VanillaWoodTypes = [
+  'acacia'
+]
 const moddedWoodTypes = [
   'autumnity:maple', "architectspalette:twisted"
 ]

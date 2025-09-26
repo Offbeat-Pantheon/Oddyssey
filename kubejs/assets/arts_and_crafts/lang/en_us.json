@@ -1,0 +1,35 @@
+{
+  "advancements.husbandry.circa_1980.description": "Obtain some bleachdew from a fully bloomed Lotus Flower!",
+  "advancements.husbandry.circa_1980.title": "Circa 1980",
+  "advancements.husbandry.let_the_past_bloom.description": "Interact with a lily pad using some Lotus Pistils",
+  "advancements.husbandry.let_the_past_bloom.title": "Let The Past Bloom!",
+
+  "block.arts_and_crafts.cork": "Cork",
+  "block.arts_and_crafts.smooth_cork": "Smooth Cork",
+
+  "block.arts_and_crafts.cork_button": "Acacia Button",
+  "block.arts_and_crafts.cork_door": "Acacia Door",
+  "block.arts_and_crafts.cork_fence": "Acacia Fence",
+  "block.arts_and_crafts.cork_fence_gate": "Acacia Fence Gate",
+  "block.arts_and_crafts.cork_hanging_sign": "Acacia Hanging Sign",
+  "block.arts_and_crafts.cork_leaves": "Acacia Leaves",
+  "block.arts_and_crafts.cork_log": "Acacia Log",
+  "block.arts_and_crafts.cork_planks": "Acacia Planks",
+  "block.arts_and_crafts.cork_pressure_plate": "Acacia Pressure Plate",
+  "block.arts_and_crafts.cork_sapling": "Acacia Sapling",
+  "block.arts_and_crafts.cork_sign": "Acacia Sign",
+  "block.arts_and_crafts.cork_slab": "Acacia Slab",
+  "block.arts_and_crafts.cork_stairs": "Acacia Stairs",
+  "block.arts_and_crafts.cork_trapdoor": "Acacia Trapdoor",
+  "block.arts_and_crafts.cork_wood": "Acacia Wood",
+  "block.arts_and_crafts.stripped_cork_log": "Stripped Acacia Log",
+  "block.arts_and_crafts.stripped_cork_wood": "Stripped Acacia Wood",
+  "item.arts_and_crafts.cork_boat": "Acacia Boat",
+  "item.arts_and_crafts.cork_chest_boat": "Acacia Boat with Chest",
+
+  "block.arts_and_crafts.lotus_flower": "Lotus Flower",
+  "item.arts_and_crafts.bleachdew": "Bleachdew",
+  "item.arts_and_crafts.bleachdew_paintbrush": "Bleachdew Paintbrush",
+  "item.arts_and_crafts.lotus_pistils": "Lotus Pistils"
+  
+}
