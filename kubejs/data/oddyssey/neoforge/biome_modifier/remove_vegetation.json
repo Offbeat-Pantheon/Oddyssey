@@ -6,7 +6,13 @@
       "autumnity:spotted_maples_red",
       "autumnity:spotted_maples_orange",
       "autumnity:spotted_maples_yellow",
-      "upgrade_aquatic:beachgrass_dunes"
+      "upgrade_aquatic:beachgrass_dunes",
+      "sweety_garden:busy_lizzie_patchs",
+      "sweety_garden:cyan_poppy_patchs",
+      "sweety_garden:heather_patchs",
+      "sweety_garden:hepatica_patchs",
+      "sweety_garden:wood_sorrel_patchs",
+      "sweety_garden:wood_anemone_patchs"
       ],
     "step": "vegetal_decoration"
   }

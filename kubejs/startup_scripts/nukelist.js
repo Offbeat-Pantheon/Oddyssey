@@ -1,6 +1,10 @@
  global.nukelist = [ // List of things to be disabled and hidden from the game. You can nuke Items, Blocks, Fluids, and Entities, although the last one won't have much of an effect (it can do stuff like making cows unmilkable though, but won't disable spawning or spawn egg item)
+    'minecraft:brewing_stand',
     'arts_and_crafts:pottery_sherd',
     'arts_and_crafts:finale_pottery_sherd',
+    'atmospheric:passion_vine',
+    'atmospheric:passion_vine_coil',
+    'atmospheric:passion_vine_bundle',
     'autumnity:sap_bottle',
     'autumnity:syrup_bottle',
     'autumnity:pancake',
@@ -60,6 +64,11 @@
     'bountifulfares:sweet_berry_pips',
     'bountifulfares:walnut',
     'bountifulfares:walnut_sapling',
+    'cookscollection:chocolate_muffin',
+    'cookscollection:lemon_muffin',
+    'cookscollection:lemon',
+    'cookscollection:rustic_loaf',
+    'cookscollection:rustic_loaf_slice',
     'nomansland:pear_cobbler_slice',
     'nomansland:spruce_bookshelf',
     'nomansland:birch_bookshelf',
@@ -81,7 +90,16 @@
     'farmersdelight:chocolate_pie_slice',
     'farmersdelight:cake_slice',
     'farmersdelight:sweet_berry_cheesecake_slice',
-    'mynethersdelight:magma_cake_slice',
+    "supplementaries:candy",
+    "sweety_garden:cyan_poppy",
+    "sweety_garden:heather",
+    "sweety_garden:busy_lizzie",
+    "sweety_garden:hepatica",
+    "sweety_garden:wood_anemone",
+    "sweety_garden:wood_sorrel",
+    "sweety_garden:passion_flower",
+    
+
     
 
 // I like to separate the different things by registry type, so below could be the fluid section

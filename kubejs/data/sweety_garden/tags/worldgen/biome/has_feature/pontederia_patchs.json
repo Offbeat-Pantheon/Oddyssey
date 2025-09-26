@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#c:is_swamp",
+    "nomansland:bayou",
+    "nomansland:blackwater_river",
+    "nomansland:bog"
+  ]
+}

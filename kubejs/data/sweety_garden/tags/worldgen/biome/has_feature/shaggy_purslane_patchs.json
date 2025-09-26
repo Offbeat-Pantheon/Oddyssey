@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:mangrove_swamp",
+    "nomansland:dark_swamp",
+    "nomansland:blackwater_river"
+  ]
+}
