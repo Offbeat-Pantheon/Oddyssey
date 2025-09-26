@@ -1,4 +1,36 @@
 {
   "block.nomansland.barrel_cactus": "Hedgehog Cactus",
-  "block.nomansland.potted_barrel_cactus": "Potted Hedgehog Cactus"
+  "block.nomansland.potted_barrel_cactus": "Potted Hedgehog Cactus",
+  "block.nomansland.pine_log": "White Spruce Log",
+  "block.nomansland.pine_wood": "White Spruce Wood",
+  "block.nomansland.pine_cabinet": "White Spruce Cabinet",
+  "block.nomansland.pine_button": "White Spruce Button",
+  "block.nomansland.pine_door": "White Spruce Door",
+  "block.nomansland.pine_fence_gate": "White Spruce Fence Gate",
+  "block.nomansland.pine_fence": "White Spruce Fence",
+  "block.nomansland.pine_hanging_sign": "White Spruce Hanging Sign",
+  "block.nomansland.pine_leaves": "White Spruce Leaves",
+  "block.nomansland.pine_palisade": "White Spruce Palisade",
+  "block.nomansland.pine_planks": "White Spruce Planks",
+  "block.nomansland.pine_pickets": "White Spruce Pickets",
+  "block.nomansland.pine_pressure_plate": "White Spruce Pressure Plate",
+  "block.nomansland.pine_sapling": "White Spruce Sapling",
+  "block.nomansland.pine_seat": "White Spruce Seat",
+  "block.nomansland.pine_sign": "White Spruce Sign",
+  "block.nomansland.pine_slab": "White Spruce Slab",
+  "block.nomansland.pine_stairs": "White Spruce Stairs",
+  "block.nomansland.pine_trapdoor": "White Spruce Trapdoor",
+  "block.nomansland.pine_trellis": "White Spruce Trellis",
+  "block.nomansland.stripped_pine_log": "Stripped White Spruce Log",
+  "block.nomansland.stripped_pine_wood": "Stripped White Spruce Wood",
+  "block.nomansland.stripped_pine_palisade": "Stripped White Spruce Palisade",
+  "block.nomansland.trimmed_pine_planks": "Trimmed White Spruce Planks",
+
+  
+  "item.nomansland.large_pine_boat": "Large White Spruce Boat",
+  "item.nomansland.pine_boat": "White Spruce Boat",
+  "item.nomansland.pine_chest_boat": "White Spruce Boat with Chest",
+  "item.nomansland.pine_furnace_boat": "White Spruce Boat with Furnace",
+  "item.nomansland.pine_nuts": "Spruce Nuts"
 }
+
