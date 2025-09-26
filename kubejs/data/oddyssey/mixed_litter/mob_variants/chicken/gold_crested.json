@@ -1,0 +1,6 @@
+{
+  "type": "mixed_litter:chicken",
+  "texture": "oddyssey:entity/mob_variants/chicken/chicken_gold_crested",
+  "baby_texture": "nomansland:entity/mob_variants/chicken/chicken_baby",
+  "biomes": "atmospheric:aspen_parkland"
+}
