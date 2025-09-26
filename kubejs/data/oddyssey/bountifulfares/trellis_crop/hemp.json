@@ -1,0 +1,10 @@
+{
+  "seeds": "nirvana:hemp_seeds",
+  "produce": "nirvana:hemp",
+  "texture": "nirvana:block/hemp_trellis",
+  "model": "default",
+  "stages": 3,
+  "grow_chance": 0.2,
+  "min_drops": 2,
+  "max_drops": 3
+}

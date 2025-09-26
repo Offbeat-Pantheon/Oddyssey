@@ -1,0 +1,10 @@
+{
+  "seeds": "neapolitan:strawberry_pips",
+  "produce": "neapolitan:strawberries",
+  "texture": "neapolitan:block/strawberry_trellis",
+  "model": "default",
+  "stages": 5,
+  "grow_chance": 0.3,
+  "min_drops": 3,
+  "max_drops": 5
+}

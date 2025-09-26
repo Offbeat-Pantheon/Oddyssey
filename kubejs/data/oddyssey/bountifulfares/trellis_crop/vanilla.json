@@ -1,0 +1,10 @@
+{
+  "seeds": "neapolitan:vanilla_pods",
+  "produce": "neapolitan:vanilla_pods",
+  "texture": "neapolitan:block/vanilla_trellis",
+  "model": "default",
+  "stages": 3,
+  "grow_chance": 0.2,
+  "min_drops": 2,
+  "max_drops": 4
+}
