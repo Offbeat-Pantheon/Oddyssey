@@ -6,6 +6,17 @@
       "autumnity:spotted_maples_red",
       "autumnity:spotted_maples_orange",
       "autumnity:spotted_maples_yellow",
+      "bountifulfares:walnut_placed",
+      "bountifulfares:wild_beetroots_placed",
+      "bountifulfares:wild_carrots_placed",
+      "bountifulfares:wild_potatoes_placed",
+      "bountifulfares:wild_wheat_placed",
+      "bountifulfares:large_wild_wheat_placed",
+      "bountifulfares:large_wild_beetroots_placed",
+      "bountifulfares:large_wild_carrots_placed",
+      "bountifulfares:large_wild_potatoes_placed",
+      "bountifulfares:plum_placed",
+      "cookscollection:lemon_placed",
       "upgrade_aquatic:beachgrass_dunes",
       "sweety_garden:busy_lizzie_patchs",
       "sweety_garden:cyan_poppy_patchs",
@@ -13,6 +24,6 @@
       "sweety_garden:hepatica_patchs",
       "sweety_garden:wood_sorrel_patchs",
       "sweety_garden:wood_anemone_patchs"
-      ],
+          ],
     "step": "vegetal_decoration"
   }

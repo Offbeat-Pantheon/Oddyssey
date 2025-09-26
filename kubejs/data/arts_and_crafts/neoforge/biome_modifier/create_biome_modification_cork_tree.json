@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "minecraft:wooded_badlands"
+  ],
+  "features": [
+    "arts_and_crafts:cork_tree"
+  ],
+  "step": "vegetal_decoration"
+}

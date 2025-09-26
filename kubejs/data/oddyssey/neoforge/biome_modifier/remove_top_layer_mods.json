@@ -2,7 +2,9 @@
     "type": "neoforge:remove_features",
     "biomes": "#minecraft:is_overworld",
     "features": [
-      "sweety_garden:passion_flower_fallen_trunk"
+      "sweety_garden:passion_flower_fallen_trunk",
+      "bountifulfares:patch_grassy_dirt"
+
       ],
     "step": "top_layer_modification"
   }
