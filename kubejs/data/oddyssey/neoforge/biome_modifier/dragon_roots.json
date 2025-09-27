@@ -1,0 +1,14 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "atmospheric:dunes",
+    "atmospheric:flourishing_dunes",
+    "atmospheric:petrified_dunes",
+    "atmospheric:rocky_dunes",
+    "atmospheric:spiny_thicket"
+  ],
+  "features": [
+    "atmospheric:dragon_roots"
+  ],
+  "step": "vegetal_decoration"
+}

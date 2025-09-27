@@ -101,6 +101,7 @@
 
     // - woodtypes
     "acacia",
+    "atmospheric:laurel",
     
 
     
@@ -116,10 +117,10 @@
 
 // Below are some utility functions to quickly add things in multiple wood types/colours, you could expand this to toolsets or ingot types
 const VanillaWoodTypes = [
-  'acacia'
+  "acacia"
 ]
 const moddedWoodTypes = [
-  'autumnity:maple', "architectspalette:twisted"
+  "autumnity:maple", "architectspalette:twisted", "atmospheric:laurel"
 ]
 // You can expand the above to include modded wood types too 
 

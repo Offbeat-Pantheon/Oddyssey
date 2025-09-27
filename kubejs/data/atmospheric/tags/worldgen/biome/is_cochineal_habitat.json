@@ -1,0 +1,8 @@
+{
+  "values": [
+    "#atmospheric:is_scrubland",
+    "atmospheric:spiny_thicket",
+    "#atmospheric:is_dunes",
+    "minecraft:badlands"
+  ]
+}

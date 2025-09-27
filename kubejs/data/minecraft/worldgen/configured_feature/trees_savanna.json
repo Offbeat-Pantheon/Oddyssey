@@ -4,7 +4,7 @@
     "default": "minecraft:oak_checked",
     "features": [
       {
-        "chance": 0.75,
+        "chance": 0.85,
         "feature": "arts_and_crafts:cork_tree"
       },
       {
