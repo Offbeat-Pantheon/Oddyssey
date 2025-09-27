@@ -1,0 +1,48 @@
+#Loot Tables Configuration
+[lootTables]
+	#Enable custom loot table modifications (master toggle).
+	enableCustomLootTables = true
+
+	#Stronghold Loot
+	[lootTables.strongholdLoot]
+		#Enable custom loot additions to stronghold chests.
+		enableStrongholdLoot = false
+
+		#Resurfacing Potion
+		[lootTables.strongholdLoot.resurfacingPotion]
+			#Add Resurfacing Potion to stronghold loot tables.
+			enableResurfacingPotion = true
+			#Weight for Resurfacing Potion in stronghold loot (higher = more common).
+			# Default: 2
+			# Range: 1 ~ 100
+			resurfacingPotionWeight = 2
+			#Minimum count of Resurfacing Potions when found.
+			# Default: 1
+			# Range: 1 ~ 8
+			resurfacingPotionMinCount = 1
+			#Maximum count of Resurfacing Potions when found.
+			# Default: 1
+			# Range: 1 ~ 8
+			resurfacingPotionMaxCount = 1
+
+	#Mineshaft Loot
+	[lootTables.mineshaftLoot]
+		#Enable custom loot additions to abandoned mineshaft chests.
+		enableMineshaftLoot = true
+
+		#Resurfacing Potion
+		[lootTables.mineshaftLoot.resurfacingPotion]
+			#Add Resurfacing Potion to mineshaft loot tables.
+			enableResurfacingPotion = true
+			#Weight for Resurfacing Potion in mineshaft loot (higher = more common).
+			# Default: 1
+			# Range: 1 ~ 100
+			resurfacingPotionWeight = 1
+			#Minimum count of Resurfacing Potions when found.
+			# Default: 1
+			# Range: 1 ~ 8
+			resurfacingPotionMinCount = 1
+			#Maximum count of Resurfacing Potions when found.
+			# Default: 1
+			# Range: 1 ~ 8
+			resurfacingPotionMaxCount = 1
