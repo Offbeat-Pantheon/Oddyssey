@@ -131,11 +131,11 @@
 			furnace_boat = true
 
 		[entries.wood_type.architects_palette]
-			boards = true
-			board_stairs = true
-			railing = true
-			board_wall = true
-			board_slab = true
+			boards = false
+			board_stairs = false
+			railing = false
+			board_wall = false
+			board_slab = false
 
 		[entries.leaves_type.woodworks]
 			leaf_pile = false
