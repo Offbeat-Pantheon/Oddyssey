@@ -137,9 +137,5 @@
 			board_wall = false
 			board_slab = false
 
-		[entries.wood_type.nomansland]
-			bookshelf = true
-			trimmed_planks = true
-
 		[entries.leaves_type.woodworks]
 			leaf_pile = false
