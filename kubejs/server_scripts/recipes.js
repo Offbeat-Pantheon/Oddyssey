@@ -138,20 +138,6 @@ ServerEvents.recipes(e => {
     e.remove({ id: 'farmersdelight:bread_from_smoking'})
     
 
-    e.remove({ id: 'arts_and_crafts:cork' }),
-    e.shaped(
-        Item.of('arts_and_crafts:cork', 4), 
-        [
-            'PPP',
-            'PSP',
-            'PPP',
-
-        ],
-    {
-        p: '#minecraft:planks',
-        S: 'minecraft:sponge',  
-    }
-    ),
 
     e.remove({ id: 'heartstone:heartstone' }),
     e.shaped(

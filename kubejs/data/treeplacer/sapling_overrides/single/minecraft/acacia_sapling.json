@@ -1,0 +1,11 @@
+{
+  "replace": true,
+  "values": {
+    "treeplacer:all_biomes": [
+      {
+        "feature": "oddyssey:acacia",
+        "weight": 1
+      }
+    ]
+  }
+}
