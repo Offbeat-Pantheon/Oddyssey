@@ -1,0 +1,9 @@
+{
+  "schema_version": "2",
+  "default_packs": [
+    "file/Farcr's Re-Crafted V2.21.zip",
+    "file/Farcr's Better Dirt V1.2.zip",
+    "file/Better Dirt Compat.zip",
+    "file/mod-descriptions-v7.zip"
+]
+}
