@@ -1,0 +1,19 @@
+{
+  "values": [
+    "minecraft:player",
+    "minecraft:wandering_trader",
+    "minecraft:pig",
+    "minecraft:sheep",
+    "minecraft:chicken",
+    "minecraft:cow",
+    "minecraft:horse",
+    "minecraft:donkey",
+    "minecraft:llama",
+    "minecraft:rabbit",
+    "goblintraders:goblin_trader",
+    "buzzierbees:moobloom",
+    "nomansland:deer",
+    "nomansland:goose",
+    "autumnity:turkey"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "values": [
+    "minecraft:jungle",
+    "minecraft:sparse_jungle",
+    "minecraft:wooded_badlands",
+    "abundant_atmosphere:eroded_bamboo_jungle",
+    "atmospheric:kousa_jungle",
+    "atmospheric:rainforest",
+    "atmospheric:sparse_rainforest"
+  ]
+}

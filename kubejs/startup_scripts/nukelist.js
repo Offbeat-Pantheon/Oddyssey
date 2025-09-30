@@ -1,4 +1,4 @@
- global.nukelist = [ // List of things to be disabled and hidden from the game. You can nuke Items, Blocks, Fluids, and Entities, although the last one won't have much of an effect (it can do stuff like making cows unmilkable though, but won't disable spawning or spawn egg item)
+ global.nukelist = [ 
     'minecraft:brewing_stand',
     'arts_and_crafts:pottery_sherd',
     'arts_and_crafts:finale_pottery_sherd',
@@ -8,33 +8,21 @@
     'autumnity:sap_bottle',
     'autumnity:syrup_bottle',
     'autumnity:pancake',
-    'autumnity:maple_sapling',
-    'autumnity:yellow_maple_sapling',
-    'autumnity:orange_maple_sapling',
-    'autumnity:red_maple_sapling',
-    'autumnity:maple_leaves',
-    'autumnity:yellow_maple_leaves',
-    'autumnity:orange_maple_leaves',
-    'autumnity:red_maple_leaves',
-    'autumnity:maple_leaf_pile',
-    'autumnity:yellow_maple_leaf_pile',
-    'autumnity:orange_maple_leaf_pile',
-    'autumnity:red_maple_leaf_pile',
     'autumnity:autumn_crocus',
     'brewinandchewin:quiche_slice',
-    'bountifulfares:plum_log',
-    'bountifulfares:plum_wood',
-    'bountifulfares:stripped_plum_log',
-    'bountifulfares:stripped_plum_wood',
     'bountifulfares:wild_wheat',
     'bountifulfares:wild_carrots',
     'bountifulfares:wild_potatoes',
     'bountifulfares:wild_beetroots',
-    'bountifulfares:walnut',
-    'bountifulfares:walnut_sapling',
     'cookscollection:chocolate_muffin',
     'cookscollection:lemon_muffin',
     'cookscollection:lemon',
+    'cookscollection:lemon_crate',
+    'cookscollection:lemon_sapling',
+    'cookscollection:lemon_log',
+    'cookscollection:lemon_wood',
+    'cookscollection:lemon_leaves',
+    'cookscollection:fruiting_lemon_leaves',
     'cookscollection:rustic_loaf',
     'cookscollection:rustic_loaf_slice',
     'nomansland:pear_cobbler_slice',
@@ -48,10 +36,6 @@
     'nomansland:warped_bookshelf',
     'nomansland:crimson_bookshelf',
     'nomansland:bamboo_bookshelf',
-    'nomansland:walnut_log',
-    'nomansland:walnut_wood',
-    'nomansland:stripped_walnut_log',
-    'nomansland:stripped_walnut_wood',
     'farmersdelight:rope',
     'farmersdelight:apple_pie',
     'farmersdelight:apple_pie_slice',
@@ -66,36 +50,84 @@
     "sweety_garden:wood_anemone",
     "sweety_garden:wood_sorrel",
     "sweety_garden:passion_flower",
+    "primal:straw_bale",
+    "primal:seashells",
+
+    /wan_ancient_beast.*straw/,
 
     // - woodtypes
-    "acacia",
-    "atmospheric:laurel",
-    
+    'nomansland:walnut_log',
+    'nomansland:walnut_wood',
+    'nomansland:stripped_walnut_log',
+    'nomansland:stripped_walnut_wood',
+    'nomansland:walnut_leaves',
+    'bountifulfares:walnut',
+    'bountifulfares:walnut_sapling',
+    'bountifulfares:plum_log',
+    'bountifulfares:plum_wood',
+    'bountifulfares:stripped_plum_log',
+    'bountifulfares:stripped_plum_wood',
+    /autumnity.*maple/,
+    /atmospheric.*laurel/,
+    /architects_palette.*twisted/,
+    /enderscape.*celestial/,
+    /enderscape.*murublight/,
 
-    
+    // - architect's palette
+    /architects_palette.*moonshale/,
+    /architects_palette.*tread_plate/,
+    /architects_palette.*hazard/,
+    /architects_palette.*olivestone/,
+    /architects_palette.*algal/,
+    /architects_palette.*ore_brick/,
+    /architects_palette.*osseous/,
+    /architects_palette.*board/,
+    /architects_palette.*railing/,
+    /architects_palette.*dripstone/,
+    /architects_palette.*calcite/,
+    /architects_palette.*tuff/,
+    /architects_palette.*nether_brass/,
+    /architects_palette.*wardstone/,
+    /architects_palette.*cage_lantern/,
+
+
+
+
+
+
+
+
+
+    // - nether stuff
+
+
+    // - end stuff
+    /veradite/,
+    /mirestone/,
+    /end_stone/,
+    /kurodite/,
+    /chorus/,
+
 
 // I like to separate the different things by registry type, so below could be the fluid section
 
     'examplemod:examplefluidid', // Last option can end with a comma
 
-// I also like to sort them in alphabetical order, there's a VSCode addon for that
-
 ]
-
-
-// Below are some utility functions to quickly add things in multiple wood types/colours, you could expand this to toolsets or ingot types
-const VanillaWoodTypes = [
-  "acacia"
+const woodenBlocks = [
+  'slab', 'stairs', 'fence', 'fence_gate', 'button', 'pressure_plate',
+  'chest_boat', 'boat', 'trapdoor', 'door', 'planks',
 ]
-const moddedWoodTypes = [
-  "autumnity:maple", "architectspalette:twisted", "atmospheric:laurel"
-]
-// You can expand the above to include modded wood types too 
+for (const type of woodenBlocks) {
+  global.nukelist.push(`bountifulfares:walnut_${type}`)
+}
 
 
-/*for (const wood of vanillaWoodTypes) {
-    global.nukelist.push(`examplefurnituremod:${wood}_table`)
-}*/
+// /ecologics.*flowering_azalea/,  Will remove everything with an ID containing "ecologics" and "flowering_azalea", effectively nuking the Ecologics Flowering Azalea woodtype. The .* seperates the 2 bits.
+// /minecraft.*acacia/,  Will remove everything with an ID containing "minecraft" and "acacia", effectively nuking the Vanilla Acacia woodtype.
+// /acacia/, // You don't need the modid at all actually, it's just useful in case you have 2 woodtypes with the same name from different mods (e.g ecologics:azalea and quark:azalea) and you only want to remove one.
+// /quark.*limestone/,  Just for fun, you can nuke everything from Quark that contains "limestone" in the ID 
+// CAUTION: This can end up removing things you don't want to accidentally. For example, if you wanted to remove Lead (the metal) from your modpack, and put in /lead/, it will remove Minecraft Leads as well because their ID is minecraft:lead. Be careful!
 
 /*for (const colour of dyeColours) {
     global.nukelist.push(`examplefurnituremod:${colour}_coloured_thing`)

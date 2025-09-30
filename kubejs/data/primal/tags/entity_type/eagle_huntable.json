@@ -1,0 +1,13 @@
+{
+  "values": [
+    "minecraft:chicken",
+    "minecraft:rabbit",
+    "minecraft:salmon",
+    "minecraft:cod",
+    "minecraft:frog",
+    "minecraft:phantom",
+    "upgrade_aquatic:perch",
+    "upgrade_aquatic:pike",
+    "nomansland:billhook_bass"
+  ]
+}

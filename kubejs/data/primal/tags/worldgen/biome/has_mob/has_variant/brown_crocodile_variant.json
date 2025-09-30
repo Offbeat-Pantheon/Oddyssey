@@ -1,0 +1,13 @@
+{
+  "values": [
+    "minecraft:desert",
+    "minecraft:savanna",
+    "minecraft:windswept_savanna",
+    "atmospheric:dunes",
+    "atmospheric:flourishing_dunes",
+    "atmospheric:petrified_dunes",
+    "atmospheric:rocky_dunes",
+    "atmospheric:spiny_thicket",
+    "nomansland:desert_river"
+  ]
+}

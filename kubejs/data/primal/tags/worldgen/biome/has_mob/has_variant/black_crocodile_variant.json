@@ -1,0 +1,15 @@
+{
+  "values": [
+    "minecraft:jungle",
+    "minecraft:sparse_jungle",
+    "minecraft:bamboo_jungle",
+    "minecraft:mangrove_swamp",
+    "abundant_atmosphere:eroded_bamboo_jungle",
+    "atmospheric:kousa_jungle",
+    "atmospheric:rainforest",
+    "atmospheric:rainforest_basin",
+    "atmospheric:sparse_rainforest",
+    "atmospheric:sparse_rainforest_basin",
+    "nomansland:tropical_beach"
+  ]
+}

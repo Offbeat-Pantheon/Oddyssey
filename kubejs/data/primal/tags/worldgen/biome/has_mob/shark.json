@@ -1,0 +1,7 @@
+{
+  "values": [
+    "#minecraft:is_ocean",
+    "#primal:has_mob/has_variant/hammerhead_variant",
+    "#primal:has_mob/has_variant/tiger_shark_variant"
+  ]
+}
