@@ -1,0 +1,45 @@
+#Client
+[client]
+
+	#Elder Guardian Appearance
+	[client.guardian]
+		#Disable the Elder Guardian appearance effect when Mining Fatigue is inflicted.
+		disableGuardianJumpscare = false
+
+	#Auto Walk / Controls
+	[client.autoWalk]
+		#Enable the Auto Walk keybind to toggle forward walking (enables Auto Jump while active).
+		enableAutoWalkKey = false
+
+	#Night Vision Improvement
+	[client.nightVision]
+		#Enable Night Vision fadeout instead of vanilla blinking.
+		enableNightVisionFade = true
+		#Seconds over which Night Vision should fade out before expiring.
+		# Default: 10
+		# Range: 1 ~ 30
+		nightVisionFadeSeconds = 10
+
+	#See Held Item
+	[client.seeHeldItem]
+		#Show your held item in first-person while riding entities (e.g., boats).
+		enableShowHeldItemWhenRiding = true
+
+	#Sprint / Controls
+	[client.sprint]
+		#Enable the Sprint (Toggle/Hold) keybind that mirrors the opposite of the Sneak accessibility setting.
+		enableSprintToggleKey = true
+
+	#Experience / Sounds
+	[client.experience]
+		#Enable the long/old level-up sound when reaching level 30.
+		enableLevel30OldSound = true
+
+	#Custom Splash Text
+	[client.splashText]
+		#Enable custom splash texts to randomly appear on the title screen.
+		enableCustomSplashTexts = true
+		#How many times to add each custom splash text to increase appearance odds. Higher = more likely to appear.
+		# Default: 3
+		# Range: 1 ~ 10
+		customSplashMultiplier = 3

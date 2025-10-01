@@ -1,0 +1,101 @@
+#Mobs
+[mobs]
+
+	#Improved Wandering Traders
+	[mobs.improvedWanderingTraders]
+		#Enable improved wandering traders with custom trades.
+		enableImprovedWanderingTraders = false
+		#If true, replace all vanilla wandering trader trades. If false, add custom trades to existing ones.
+		replaceVanillaTrades = false
+
+		#Trade Categories
+		[mobs.improvedWanderingTraders.tradeCategories]
+
+			#Building Materials
+			[mobs.improvedWanderingTraders.tradeCategories.buildingMaterials]
+				#Enable building materials trades.
+				enableBuildingMaterialsTrades = true
+
+			#Rare Items
+			[mobs.improvedWanderingTraders.tradeCategories.rareItems]
+				#Enable rare items trades.
+				enableRareItemsTrades = true
+
+			#Utility Items
+			[mobs.improvedWanderingTraders.tradeCategories.utilityItems]
+				#Enable utility items trades.
+				enableUtilityItemsTrades = true
+
+			#Decorative Items
+			[mobs.improvedWanderingTraders.tradeCategories.decorativeItems]
+				#Enable decorative items trades.
+				enableDecorativeItemsTrades = true
+
+	#Cave Spiders
+	[mobs.caveSpiders]
+		#Allow Cave Spiders to spawn in place of Spiders in caves.
+		enableCaveSpidersInCaves = true
+		#Chance for a Spider in a cave to be replaced by a Cave Spider (0.0-1.0).
+		# Default: 0.2
+		# Range: 0.0 ~ 1.0
+		caveSpiderReplacementChance = 0.2
+
+	#Disable Nitwits
+	[mobs.disableNitwits]
+		#Prevent Nitwit villagers from spawning naturally.
+		disableNitwits = true
+
+	#Improved Phantoms
+	[mobs.improvedPhantoms]
+		#Enable improved phantom mechanics.
+		enableImprovedPhantoms = true
+
+		#Phantom Pickup
+		[mobs.improvedPhantoms.phantomPickup]
+			#Allow phantoms to pick up and carry players.
+			enablePhantomPickup = true
+			#Chance for a phantom to attempt picking up a player when attacking (0.0-1.0).
+			# Default: 0.3
+			# Range: 0.0 ~ 1.0
+			phantomPickupChance = 0.3
+			#Minimum delay in seconds before player can dismount from phantom.
+			# Default: 1
+			# Range: 0 ~ 10
+			phantomPickupMinDelay = 1
+			#Speed multiplier for phantoms when carrying a player (1.0 = normal speed, 0.5 = half speed).
+			# Default: 0.5
+			# Range: 0.1 ~ 1.0
+			phantomPickupSpeedMultiplier = 0.5
+
+		#Phantom Slowness Stacking
+		[mobs.improvedPhantoms.phantomSlowness]
+			#Enable stacking slowness effect when hit by phantoms.
+			enablePhantomSlownessStacking = true
+			#Duration of slowness effect in seconds.
+			# Default: 10
+			# Range: 1 ~ 60
+			phantomSlownessDuration = 10
+			#Maximum slowness level that can be stacked (1-4).
+			# Default: 4
+			# Range: 1 ~ 4
+			phantomSlownessMaxLevel = 4
+
+		#Double Damage When Carried
+		[mobs.improvedPhantoms.phantomDoubleDamage]
+			#Enable double damage when hitting a phantom while being carried by it.
+			enablePhantomDoubleDamage = true
+
+		#Better Combat Integration
+		[mobs.improvedPhantoms.betterCombatIntegration]
+			#Enable Better Combat mod integration for enhanced phantom combat mechanics. Only takes effect if Better Combat is installed.
+			enableBetterCombatIntegration = true
+
+		#Debug Logging
+		[mobs.improvedPhantoms.phantomDebug]
+			#Enable debug logging for phantom mechanics (for troubleshooting).
+			enablePhantomDebugLogging = false
+
+		#Spider Replacement Debug
+		[mobs.improvedPhantoms.spiderDebug]
+			#Enable debug logging for spider replacement mechanics (for troubleshooting).
+			enableSpiderDebugLogging = false

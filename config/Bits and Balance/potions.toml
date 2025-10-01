@@ -1,0 +1,41 @@
+#Potions
+[potions]
+
+	#Levitation Potion
+	[potions.levitation]
+		#Enable brewing for Levitation potions.
+		#Recipe: Slow Falling Potion + Shulker Shell = Levitation Potion
+		#Upgrades: Redstone for extended, Glowstone for stronger variants
+		enableLevitationPotion = false
+
+	#Haste Potion
+	[potions.haste]
+		#Enable brewing for Haste potions.
+		#Recipe: Speed Potion + Quartz = Haste Potion
+		#Upgrades: Redstone for extended, Glowstone for stronger variants
+		enableHastePotion = false
+
+	#Withering Potion
+	[potions.withering]
+		#Enable brewing for Withering potions.
+		#Recipe: Poison/Harming Potion + Wither Rose = Withering Potion
+		#Upgrades: Redstone for extended, Glowstone for stronger variants
+		enableWitheringPotion = true
+
+	#Resurfacing Potion
+	[potions.resurfacing]
+		#Enable the Resurfacing potion effect (teleports player to surface).
+		#Recipe: Currently no brewing recipe - obtained via creative mode or commands.
+		enableResurfacingPotion = true
+
+	#Displacement Potion
+	[potions.displacement]
+		#Enable the Displacement potion effect (randomly teleports player within 100-block radius).
+		#Recipe: Awkward Potion + Ender Eye = Displacement Potion
+		enableDisplacementPotion = true
+
+	#Returning Potion
+	[potions.returning]
+		#Enable the Returning potion effect (teleports player to their latest death location).
+		#Recipe: Displacement Potion + Echo Shard = Returning Potion
+		enableReturningPotion = true

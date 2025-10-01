@@ -1,0 +1,67 @@
+#Combat
+[combat]
+
+	#Second Chance
+	[combat.secondChance]
+		#Enable the Second Chance anti-one-shot mechanic for players (excludes fall damage by default). 
+		enableSecondChance = true
+		#Exclude fall damage from triggering Second Chance.
+		excludeFallDamage = true
+		#Cooldown in Minecraft days between Second Chance triggers (1 day = 24000 ticks). Set to 0 to disable cooldown.
+		# Default: 7
+		# Range: 0 ~ 3650
+		cooldownDays = 7
+		#Reset Second Chance cooldown on respawn (death). If false, cooldown persists across deaths.
+		resetOnRespawn = true
+
+		#Apply Resistance effect when Second Chance triggers.
+		[combat.secondChance.applyResistance]
+			#Enable applying Resistance when Second Chance triggers.
+			enabled = true
+			#Resistance effect level to apply (1 = Resistance I).
+			# Default: 1
+			# Range: 1 ~ 10
+			level = 1
+
+		#Apply Nausea effect when Second Chance triggers.
+		[combat.secondChance.applyNausea]
+			#Enable applying Nausea when Second Chance triggers.
+			enabled = true
+			#Nausea effect level to apply (1 = Nausea I).
+			# Default: 2
+			# Range: 1 ~ 10
+			level = 2
+
+	#Maintain Experience
+	[combat.maintainExperience]
+		#Enable Maintain Experience: players lose a percentage of their experience on death.
+		enableMaintainExperience = true
+		#Percentage of total experience to lose on death (0-100).
+		# Default: 50
+		# Range: 0 ~ 100
+		# Default: 50
+		# Range: 0 ~ 100
+		lossPercent = 50
+
+	#Snowball Rework
+	[combat.snowball]
+		#Enable Snowball Rework: snowballs deal damage and apply freezing.
+		enableSnowballRework = true
+		#Base damage dealt by snowballs to entities.
+		# Default: 0.5
+		# Range: 0.0 ~ 100.0
+		snowballBaseDamage = 0.5
+		#Damage dealt by snowballs to entities considered Nether-native.
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		snowballNetherDamage = 1.0
+		#Minimum freeze duration in seconds applied by snowballs.
+		# Default: 5
+		# Range: 0 ~ 60
+		snowballMinFreezeSeconds = 5
+		#Maximum freeze duration in seconds applied by snowballs.
+		# Default: 8
+		# Range: 0 ~ 60
+		snowballMaxFreezeSeconds = 8
+		#Entity types treated as Nether-native for snowball damage (resource locations).
+		snowballNetherEntities = ["minecraft:blaze", "minecraft:ghast", "minecraft:magma_cube", "minecraft:strider", "minecraft:wither_skeleton", "minecraft:piglin", "minecraft:piglin_brute", "minecraft:zombified_piglin", "minecraft:hoglin", "minecraft:zoglin"]

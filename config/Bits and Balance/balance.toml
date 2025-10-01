@@ -1,0 +1,121 @@
+#Balance
+[balance]
+
+	#Ender Dragon XP
+	[balance.enderDragon]
+		#Always drop the full first-kill XP from the Ender Dragon.
+		enableFullEnderDragonXp = false
+
+	#Nerfed Discounts
+	[balance.nerfedDiscounts]
+		#Enable nerfed villager discounts system.
+		enabled = false
+		#Remove discounts gained from curing zombie villagers.
+		removeZombieCureDiscounts = false
+		#Maximum discount percentage any villager can offer (0.0-1.0, where 0.5 = 50%).
+		# Default: 0.5
+		# Range: 0.0 ~ 1.0
+		maxDiscount = 0.5
+
+	#Food
+	[balance.food]
+		#Allow players to eat unconditionally.
+		enableFoodAlwaysEdible = true
+
+	#Source Dependent Invulnerability Frames
+	[balance.sourceDependentIFrames]
+		#Allow entities to take damage multiple times within i-frames if damage comes from different sources.
+		enabled = true
+		#Damage types to never bypass i-frames (resource locations).
+		blacklist = []
+
+	#Depth Scaling Enemies
+	[balance.depthScalingEnemies]
+		#Enable depth-based scaling for Zombies and Skeletons in the Overworld.
+		enabled = true
+		#Restrict depth scaling to the Overworld only.
+		overworldOnly = true
+		#Y-level threshold for mid depth tier (<= this is considered mid).
+		# Default: 40
+		# Range: -2048 ~ 4096
+		midDepthY = 40
+		#Y-level threshold for deep tier (<= this is considered deep). Example: -16.
+		# Default: 0
+		# Range: -2048 ~ 4096
+		deepDepthY = 0
+		#Chance per armor slot to equip a piece at surface tier (0.0-1.0).
+		# Default: 0.1
+		# Range: 0.0 ~ 1.0
+		surfaceEquipChance = 0.1
+		#Chance per armor slot to equip a piece at mid tier (0.0-1.0).
+		# Default: 0.28
+		# Range: 0.0 ~ 1.0
+		midEquipChance = 0.28
+		#Chance per armor slot to equip a piece at deep tier (0.0-1.0).
+		# Default: 0.35
+		# Range: 0.0 ~ 1.0
+		deepEquipChance = 0.35
+		#Surface tier: probability weight for Leather armor when equipping.
+		# Default: 0.85
+		# Range: 0.0 ~ 100.0
+		surfaceLeatherWeight = 0.85
+		#Surface tier: probability weight for Chain armor when equipping.
+		# Default: 0.1
+		# Range: 0.0 ~ 100.0
+		surfaceChainWeight = 0.1
+		#Surface tier: probability weight for Gold armor when equipping.
+		# Default: 0.26
+		# Range: 0.0 ~ 100.0
+		surfaceGoldWeight = 0.26
+		#Surface tier: probability weight for Iron armor when equipping.
+		# Default: 0.02
+		# Range: 0.0 ~ 100.0
+		surfaceIronWeight = 0.02
+		#Mid tier: probability weight for Leather armor when equipping.
+		# Default: 0.5
+		# Range: 0.0 ~ 100.0
+		midLeatherWeight = 0.5
+		#Mid tier: probability weight for Chain armor when equipping.
+		# Default: 0.3
+		# Range: 0.0 ~ 100.0
+		midChainWeight = 0.3
+		#Mid tier: probability weight for Gold armor when equipping.
+		# Default: 0.4
+		# Range: 0.0 ~ 100.0
+		midGoldWeight = 0.4
+		#Mid tier: probability weight for Iron armor when equipping.
+		# Default: 0.15
+		# Range: 0.0 ~ 100.0
+		midIronWeight = 0.15
+		#Deep tier: probability weight for Leather armor when equipping.
+		# Default: 0.2
+		# Range: 0.0 ~ 100.0
+		deepLeatherWeight = 0.2
+		#Deep tier: probability weight for Chain armor when equipping.
+		# Default: 0.45
+		# Range: 0.0 ~ 100.0
+		deepChainWeight = 0.45
+		#Deep tier: probability weight for Gold armor when equipping.
+		# Default: 0.15
+		# Range: 0.0 ~ 100.0
+		deepGoldWeight = 0.15
+		#Deep tier: probability weight for Iron armor when equipping. Note: hard-capped by deepMaxIronPieces.
+		# Default: 0.5
+		# Range: 0.0 ~ 100.0
+		deepIronWeight = 0.5
+		#Deep tier: maximum number of Iron armor pieces allowed on a single mob (example requires 1).
+		# Default: 1
+		# Range: 0 ~ 4
+		deepMaxIronPieces = 1
+		#Surface tier: chance for Zombies to spawn with a melee weapon in main hand (0.0-1.0).
+		# Default: 0.05
+		# Range: 0.0 ~ 1.0
+		surfaceZombieWeaponChance = 0.05
+		#Mid tier: chance for Zombies to spawn with a melee weapon in main hand (0.0-1.0).
+		# Default: 0.15
+		# Range: 0.0 ~ 1.0
+		midZombieWeaponChance = 0.15
+		#Deep tier: chance for Zombies to spawn with a melee weapon in main hand (0.0-1.0).
+		# Default: 0.3
+		# Range: 0.0 ~ 1.0
+		deepZombieWeaponChance = 0.3
