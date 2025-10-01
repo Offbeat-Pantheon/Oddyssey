@@ -652,6 +652,205 @@ e.custom({
             {id: "autumnity:pumpkin_bread", count: 1},
         cookingtime: 200
 }),
+    e.remove({ id: 'minecraft:cookie'}),
+    e.custom({
+        type: "cookscollection:baking",
+        ingredients: [
+            {"item": "farmersdelight:wheat_dough"},
+            {"item": "farmersdelight:wheat_dough"},
+            {"item": "neapolitan:chocolate_bar"},
+  ],
+        result: 
+            {id: "minecraft:cookie", count: 12},
+        cookingtime: 200
+}),
+
+    e.remove({ id: 'bountifulfares:walnut_cookie'}),
+    e.custom({
+        type: "cookscollection:baking",
+        ingredients: [
+            {"item": "farmersdelight:wheat_dough"},
+            {"item": "farmersdelight:wheat_dough"},
+            {"item": "nomansland:walnuts"},
+  ],
+        result: 
+            {id: "bountifulfares:walnut_cookie", count: 12},
+        cookingtime: 200
+}),
+
+    e.remove({ id: 'farmersdelight:sweet_berry_cookie'}),
+    e.custom({
+        type: "cookscollection:baking",
+        ingredients: [
+            {"item": "farmersdelight:wheat_dough"},
+            {"item": "farmersdelight:wheat_dough"},
+            {"item": "minecraft:sweet_berries"},
+  ],
+        result: 
+            {id: "farmersdelight:sweet_berry_cookie", count: 12},
+        cookingtime: 200
+}),
+
+    e.remove({ id: 'bountifulfares:artisan_cookie'}),
+    e.custom({
+        type: "cookscollection:baking",
+        ingredients: [
+            {"item": "farmersdelight:wheat_dough"},
+            {"item": "farmersdelight:wheat_dough"},
+            {"item": "bountifulfares:elderberries"},
+            {"item": "minecraft:sugar"},
+  ],
+        result: 
+            {id: "bountifulfares:artisan_cookie", count: 12},
+        cookingtime: 200
+}),
+
+    e.remove({ id: 'farmersdelight:honey_cookie'}),
+    e.custom({
+        type: "cookscollection:baking",
+        ingredients: [
+            {"item": "farmersdelight:wheat_dough"},
+            {"item": "farmersdelight:wheat_dough"},
+            {"item": "minecraft:honeycomb"},
+            {"item": "minecraft:honey_bottle"},
+  ],
+        result: 
+            {id: "farmersdelight:honey_cookie", count: 12},
+        cookingtime: 200
+}),
+
+    e.remove({ id: 'minersdelight:nutritional_bar'}),
+    e.custom({
+        type: "cookscollection:baking",
+        ingredients: [
+            {"item": "minersdelight:nutritional_bar"},
+            {"item": "minersdelight:nutritional_bar"},
+            {"item": "bountifulfares:flour"},
+            {"item": "bountifulfares:flour"},
+            {"item": "minecraft:honey_bottle"},
+  ],
+        result: 
+            {id: "minersdelight:nutritional_bar", count: 2},
+        cookingtime: 200
+}),
+
+    e.remove({ id: 'neapolitan:adzuki_bun'}),
+    e.custom({
+        type: "cookscollection:baking",
+        ingredients: [
+            {"item": "neapolitan:roasted_adzuki_beans"},
+            {"item": "bountifulfares:flour"},
+            {"item": "bountifulfares:flour"},
+            {"tag": "c:milk"},
+  ],
+        result: 
+            {id: "neapolitan:adzuki_bun", count: 3},
+        cookingtime: 200
+}),
+
+    e.remove({ id: 'atmospheric:yucca_gateau'}),
+    e.custom({
+        type: "cookscollection:baking_shaped",
+        pattern: [
+            "RAR",
+            "FYF",
+        ],
+        key: {
+          "F": {
+            "item": "bountifulfares:flour"
+          },
+          "A": {
+            "item": "atmospheric:aloe_gel_bottle"
+          },
+          "R": {
+            "item": "atmospheric:roasted_yucca_fruit"
+          },
+          "Y": {
+            "item": "atmospheric:yucca_flower"
+          }
+        },
+        result: 
+            {id: "atmospheric:yucca_gateau", count: 1},
+        cookingtime: 200
+}),
+
+    e.remove({ id: 'atmospheric:currant_muffin'}),
+    e.custom({
+        type: "cookscollection:baking",
+        ingredients: [
+            {"item": "atmospheric:currant"},
+            {"item": "atmospheric:currant"},
+            {"item": "bountifulfares:flour"},
+            {"item": "minecraft:sugar"},
+            {"tag": "c:eggs"}
+
+  ],
+        result: 
+            {id: "atmospheric:currant_muffin", count: 1},
+        cookingtime: 200
+}),
+
+    e.remove({ id: 'atmospheric:orange_pudding'}),
+    e.custom({
+        type: "cookscollection:baking",
+        ingredients: [
+            {"item": "bountifulfares:orange"},
+            {"item": "minecraft:sweet_berries"},
+            {"item": "neapolitan:chocolate_bar"},
+            {"item": "bountifulfares:flour"},
+            {"tag": "c:milk"},
+            {"tag": "c:eggs"}
+  ],
+        result: 
+            {id: "atmospheric:orange_pudding", count: 1},
+        cookingtime: 200
+}),
+
+    e.remove({ id: 'neapolitan:strawberry_scones'}),
+    e.custom({
+        type: "cookscollection:baking",
+        ingredients: [
+            {"item": "neapolitan:strawberries"},
+            {"item": "bountifulfares:flour"},
+            {"item": "bountifulfares:flour"},
+            {"item": "minecraft:sugar"},
+  ],
+        result: 
+            {id: "neapolitan:strawberry_scones", count: 3},
+        cookingtime: 200
+}),
+
+    e.remove({ id: 'nirvana:weed_brownie'}),
+    e.custom({
+        type: "cookscollection:baking",
+        ingredients: [
+            {"item": "nirvana:hemp_seeds"},
+            {"item": "neapolitan:chocolate_bar"},
+            {"item": "bountifulfares:flour"},
+            {"tag": "c:milk"},
+  ],
+        result: 
+            {id: "nirvana:weed_brownie", count: 2},
+        cookingtime: 200
+}),
+
+    e.remove({ id: 'nomansland:food/pear_cobbler'}),
+    e.custom({
+        type: "cookscollection:baking",
+        ingredients: [
+            {"item": "nomansland:pear"},
+            {"item": "nomansland:walnuts"},
+            {"item": "bountifulfares:flour"},
+            {"tag": "c:eggs"},
+  ],
+        result: 
+            {id: "nomansland:food/pear_cobbler", count: 1},
+        cookingtime: 200
+}),
+
+    e.remove({ id: 'minecraft:baked_potato'}),
+    e.remove({ id: 'minecraft:baked_potato_from_smoking'}),
+    e.remove({ id: 'minecraft:baked_potato_from_campfire_cooking'}),
 
     // - gritsmill recipes
     e.remove({ id: 'bountifulfares:walnut_mulch_from_walnut_milling'}),
