@@ -1,0 +1,184 @@
+{
+  "name": {
+    "text": "Foundry"
+  },
+  "appearance": {
+    "running": {
+      "custommachinery:ambient_sound": {
+        "sound": "minecraft:block.furnace.fire_crackle"
+      },
+      "custommachinery:block": "minecraft:furnace#facing=north,lit=true",
+      "custommachinery:light": 15
+    },
+    "custommachinery:block": "minecraft:furnace",
+    "idle": {
+      "custommachinery:block": "minecraft:blast_furnace"
+    }
+  },
+  "components": [
+    {
+      "type": "custommachinery:item",
+      "whitelist": [
+        "#c:coal",
+        "#c:buckets/lava",
+        "minecraft:magma_block"
+      ],
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "fuel",
+      "mode": "none"
+    },
+    {
+      "type": "custommachinery:item",
+      "whitelist": [
+        "#c:coal",
+        "#c:ingots",
+        "minecraft:netherite_scrap",
+        "#c:gunpowders"
+      ],
+      "id": "input",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "output",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item_upgrade",
+      "max_output": 64,
+      "id": "codex",
+      "mode": "input",
+      "capacity": 1
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "width": 172,
+      "height": 160
+    },
+    {
+      "type": "custommachinery:fuel",
+      "x": 79,
+      "y": 38,
+      "orientation": "BOTTOM"
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 5,
+      "y": 78
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "codex",
+      "priority": 1,
+      "x": 23,
+      "y": 18,
+      "ghost": {
+        "items": {
+          "item": "minecraft:sentry_armor_trim_smithing_template"
+        },
+        "color": {
+          "alpha": 0.3764706,
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 0.0
+        }
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "fuel",
+      "x": 77,
+      "y": 53
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input",
+      "x": 77,
+      "y": 18,
+      "ghost": {
+        "items": {
+          "item": "minecraft:iron_ingot"
+        },
+        "color": {
+          "alpha": 0.4,
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 0.0
+        }
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input",
+      "x": 59,
+      "y": 18,
+      "ghost": {
+        "items": {
+          "item": "minecraft:iron_ingot"
+        },
+        "color": {
+          "alpha": 0.4,
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 0.0
+        }
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input",
+      "x": 95,
+      "y": 18,
+      "ghost": {
+        "items": {
+          "item": "minecraft:iron_ingot"
+        },
+        "color": {
+          "alpha": 0.4,
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 0.0
+        }
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output",
+      "priority": 1,
+      "x": 128,
+      "y": 31,
+      "width": 22,
+      "height": 22
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 65,
+      "y": 4,
+      "text": {
+        "text": "Foundry",
+        "color": "dark_gray"
+      },
+      "jei": true
+    }
+  ],
+  "processor": {
+    "type": "custommachinery:craft"
+  }
+}
