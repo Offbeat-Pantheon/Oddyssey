@@ -1,5 +1,5 @@
 #Disable xp from dropping, commands and the bar. Does not remove XP already obtained.
-disableXP = false
+disableXP = true
 #Speed of the vanilla minecart. Going over 2.0 will probably derail you around corners.
 # Default: 1.2
 # Range: 0.5 ~ 20.0
@@ -21,7 +21,7 @@ itemsFireImmunity = true
 #Should the tag "#c:heat_resistant_items" be active.
 whatever = false
 #Whether to disable the first Narrator screen on launch. Unless you're developing, probably keep this off.
-disableAccessibilityOnboardingScreen = false
+disableAccessibilityOnboardingScreen = true
 #Height of the heart and armor bar offset.
 # Default: 0
 # Range: -50 ~ 50

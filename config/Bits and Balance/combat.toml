@@ -35,7 +35,7 @@
 	#Maintain Experience
 	[combat.maintainExperience]
 		#Enable Maintain Experience: players lose a percentage of their experience on death.
-		enableMaintainExperience = true
+		enableMaintainExperience = false
 		#Percentage of total experience to lose on death (0-100).
 		# Default: 50
 		# Range: 0 ~ 100

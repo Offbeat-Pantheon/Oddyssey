@@ -9,7 +9,7 @@ ServerEvents.recipes(e => {
  
  
     // - oven recipes  
-    e.Shaped(
+    e.shaped(
         Item.of('cookscollection:oven', 1),
         [
             'BBB',
@@ -23,8 +23,8 @@ ServerEvents.recipes(e => {
             i: "#c:ingots/iron"
         }
     ),
-e.remove ({ id: 'farmersdelight:pie_crust' })
-    e.Shaped(
+    e.remove ({ id: 'farmersdelight:pie_crust' })
+    e.shaped(
         Item.of('farmersdelight:pie_crust', 3),
         [
             'DMD',
@@ -32,7 +32,7 @@ e.remove ({ id: 'farmersdelight:pie_crust' })
         ],
         {
             D: 'farmersdelight:wheat_dough',
-            M: 'c:milk'
+            M: '#c:milk'
         }
     ),
 
