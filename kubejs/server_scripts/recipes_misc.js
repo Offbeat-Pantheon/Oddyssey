@@ -75,7 +75,12 @@ ServerEvents.recipes(e => {
     }
     ),
     
-
+    // upgrade aquatic
+    e.replaceInput(
+         {id: 'upgrade_aquatic:beachgrass_tatch' }, 
+                    'upgrade_aquatic:beachgrass',           
+                    'nomansland:tall_beachgrass'         
+    )
     
 
   console.log('Hello! The recipe event has fired!')
