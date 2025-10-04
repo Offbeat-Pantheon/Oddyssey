@@ -1,0 +1,78 @@
+# Don't change this! Version used to track needed updates.
+version = 1
+
+[bow]
+enablePerfectShot = true
+perfectShotAdditionalDamage = 2
+perfectShotTimeframe = 0.2
+enableBackstep = true
+backstepTimeframe = 5
+improvedMultishot = false
+maxMultishotLevel = 3
+additionalArrowsPerLevel = 1
+playerDrawingSounds = true
+mobDrawingSounds = true
+acceptMultishot = true
+bowNetheriteVariant = false
+
+[crossbow]
+improvedPiercing = true
+percentArmorIgnoredPerLevel = 15
+stopPiercingOnArmoredEntity = true
+fixedArrowDamage = true
+fixedArrowDamageAmount = 10
+modifyFireworkDamage = true
+baseFireworkDamage = 12
+damagePerFireworkStar = 3
+modifyLoadSpeed = true
+loadTime = 2.0
+rejectMultishot = false
+acceptPower = false
+acceptInfinity = false
+crossbowNetheriteVariant = false
+
+[sword]
+enableCriticalCounter = true
+criticalCounterTimeframe = 10
+improvedSweepingEdge = true
+sweepingEdgeAdditionalDamagePerMob = 1.0
+maxMobAmountUsedForDamageIncrease = 10
+rejectKnockback = true
+
+[axe]
+cripplingThrow = true
+cripplingThrowBleedingDuration = 120
+cripplingThrowBaseBleedingDPS = 1.0
+cripplingThrowBleedingDPSIncreasePerLevel = 0.5
+cripplingThrowBaseSlownessAmplifier = 1
+cripplingThrowSlownessAmplifierIncreasePerLevel = 1
+maxTimeStuckInTarget = 240
+enableCriticalCounter = false
+acceptKnockback = true
+acceptLooting = true
+
+[shield]
+enableBash = true
+bashShieldCooldown = 8
+bashBaseDamage = 0.0
+bashDamagePerLevel = 2.0
+bashBaseRange = 1.5
+bashRangePerLevel = 0.5
+bashBaseKnockback = 0.75
+bashKnockbackPerLevel = 0.75
+enableParry = true
+parryTimeframe = 5
+shieldNetheriteVariant = false
+
+[protection]
+meleeProtection = false
+elementalProtection = false
+magicProtection = false
+normalizeEnchantmentCosts = false
+allowMultipleProtectionEnchantments = false
+maxProtectionEnchantments = 2
+
+[tweaks]
+infinityFix = false
+infinimending = false
+craftTippedArrowsWithRegularPotions = false
