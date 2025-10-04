@@ -4,9 +4,9 @@ version = 4
 bulletMaxDistance = 128.0
 
 # Number of loading stages
-loadingStages = 5
+loadingStages = 4
 # Loading stage duration (in seconds)
-loadingStageDuration = 0.8
+loadingStageDuration = 0.85
 
 # Damage multiplier for pvp
 pvpDamageMultiplier = 1.0
