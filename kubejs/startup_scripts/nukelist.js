@@ -29,6 +29,8 @@
     'cookscollection:fruiting_lemon_leaves',
     'cookscollection:rustic_loaf',
     'cookscollection:rustic_loaf_slice',
+    'cold_sweat:soul_sprout',
+    'cold_sweat:soulspring_lantern',
     'nomansland:pear_cobbler_slice',
     'nomansland:spruce_bookshelf',
     'nomansland:birch_bookshelf',
@@ -116,6 +118,7 @@
     /architects_palette.*nether_brass/,
     /architects_palette.*wardstone/,
     /architects_palette.*cage_lantern/,
+    /architects_palette.*ice/,
 
 
 
