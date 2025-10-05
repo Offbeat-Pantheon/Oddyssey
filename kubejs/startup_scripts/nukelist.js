@@ -18,6 +18,7 @@
     'bountifulfares:wild_potatoes',
     'bountifulfares:wild_beetroots',
     'bountifulfares:grassy_dirt',
+    'brewinandchewin:mead',
     'cookscollection:chocolate_muffin',
     'cookscollection:lemon_muffin',
     'cookscollection:lemon',
@@ -83,6 +84,7 @@
     /blockbox.*sandstone/,
     /blockbox.*ice/,
     /blockbox.*snow/,
+    /minecraft.*wooden/,
 
     // - woodtypes
     'nomansland:walnut_log',
