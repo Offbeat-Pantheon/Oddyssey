@@ -86,7 +86,7 @@
       "mode": "input"
     },
     {
-      "type": "custommachinery:item_result",
+      "type": "custommachinery:item",
       "config": {
         "TOP": "OUTPUT",
         "BOTTOM": "OUTPUT",
@@ -217,6 +217,6 @@
     }
   ],
   "processor": {
-    "type": "custommachinery:craft"
+    "type": "custommachinery:machine"
   }
 }
