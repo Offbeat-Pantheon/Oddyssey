@@ -23,17 +23,23 @@
 	    ["minecraft:dried_kelp_block", 92],
 	    ["minecraft:coal_block", 333],
 	    ["minecraft:magma_block", 333],
+		["hominid:gasoline_tank", 500],
 	    ["minecraft:lava_bucket", 1000]
 	]
 	#─────────────────────────────────//v
 	Icebox = [
 	    ["minecraft:snowball", 10],
+		["#neapolitan:ice_cream", 75],
 	    ["minecraft:clay_ball", 37],
+	    ["neapolitan:ice_cubes", 60],
 	    ["minecraft:snow_block", 100],
 	    ["minecraft:ice", 250],
+	    ["oreganized:grooved_ice", 250],
 	    ["minecraft:clay", 333],
 	    ["minecraft:powder_snow_bucket", 100],
-	    ["minecraft:packed_ice", 1000]
+	    ["minecraft:packed_ice", 1000],
+	    ["oreganized:grooved_packed_ice", 1000]
+
 	]
 	#─────────────────────────────────//v
 	# (Negative values indicate cold fuel
@@ -46,12 +52,17 @@
 	    ["minecraft:magma_block", 333],
 	    ["minecraft:lava_bucket", 1000],
 	    ["minecraft:snowball", -10],
+		["#neapolitan:ice_cream", -75],
 	    ["minecraft:clay_ball", -37],
+		["neapolitan:ice_cubes", -60],
 	    ["minecraft:snow_block", -100],
 	    ["minecraft:ice", -250],
+	    ["oreganized:grooved_ice", -250],
 	    ["minecraft:clay", -333],
 	    ["minecraft:powder_snow_bucket", -100],
-	    ["minecraft:packed_ice", -1000]
+	    ["minecraft:packed_ice", -1000],
+	    ["oreganized:grooved_packed_ice", -1000]
+
 	]
 
 ["Hearth Extras"]
@@ -181,7 +192,9 @@
 	# • *duration: If set, the player's temperature will remain increased/decreased for this amount of time (in ticks).
 	# ⌄ 
 	"Temperature-Affecting Foods" = [
-	    ["cold_sweat:soul_sprout", -20, "{}", 1200]
+	    ["cold_sweat:soul_sprout", -20, "{}", 1200],
+		[#neapolitan:ice_cream, -75, "{}", 1200]
+
 	]
 	#─────────────────────────────────────────────────────────────────────────
 	# Defines how much a waterskin will change the player's body temperature when used

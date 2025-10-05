@@ -1,14 +1,6 @@
 ServerEvents.recipes(e => {
 
-    // - Foundry stuff
-    ///e.shaped('custommachinery:foundry[custommachinery:machine="custommachinery:foundry"]'), [
-    ///    'DDD',
-    ///    'DFD',
-    ///    'DDD'
-    ///], {
-    ///    'D': 'minecraft:cobbled_deepslate',
-    ///    'F': 'minecraft:furnace'
-    ///}
+    
 
      e.remove({ id: 'minecraft:furnace'})
      e.shaped(
@@ -52,5 +44,25 @@ ServerEvents.recipes(e => {
             W: 'minecraft:bone',
             S: '#minecraft:soul_fire_base_blocks'
         }
+    )
+
+
+// - custom materials
+    e.shaped(
+        Item.of('kubejs:gunmetal_block', 1),
+        [
+            'GGG',
+            'GGG',
+            'GGG'
+        ],
+        {
+            G: 'kubejs:gunmetal_ingot'
+        }
+    )
+    e.shapeless(
+        Item.of('kubejs:gunmetal_ingot', 9),
+        [
+        'kubejs:gunmetal_block'
+        ]
     )
 })

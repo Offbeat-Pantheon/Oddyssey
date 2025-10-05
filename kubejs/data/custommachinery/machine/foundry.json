@@ -18,10 +18,18 @@
   "components": [
     {
       "type": "custommachinery:item",
+      "whitelist": "#oddyssey:codexes",
+      "id": "codex_slot",
+      "mode": "input",
+      "capacity": 1
+    },
+    {
+      "type": "custommachinery:item",
       "whitelist": [
-        "#c:coal",
-        "#c:buckets/lava",
-        "minecraft:magma_block"
+        "#c:ingots",
+        "#c:gunpowders",
+        "minecraft:prismarine_shard",
+        "#c:coal"
       ],
       "config": {
         "TOP": "INPUT",
@@ -31,22 +39,17 @@
         "BACK": "INPUT",
         "LEFT": "INPUT"
       },
-      "id": "fuel",
-      "mode": "none"
-    },
-    {
-      "type": "custommachinery:item",
-      "whitelist": [
-        "#c:coal",
-        "#c:ingots",
-        "minecraft:netherite_scrap",
-        "#c:gunpowders"
-      ],
-      "id": "input",
+      "id": "ingredient_1",
       "mode": "input"
     },
     {
       "type": "custommachinery:item",
+      "whitelist": [
+        "#c:ingots",
+        "#c:gunpowders",
+        "minecraft:prismarine_shard",
+        "#c:coal"
+      ],
       "config": {
         "TOP": "INPUT",
         "BOTTOM": "INPUT",
@@ -55,15 +58,45 @@
         "BACK": "INPUT",
         "LEFT": "INPUT"
       },
-      "id": "output",
-      "mode": "output"
+      "id": "ingredient_2",
+      "mode": "input"
     },
     {
-      "type": "custommachinery:item_upgrade",
-      "max_output": 64,
-      "id": "codex",
-      "mode": "input",
-      "capacity": 1
+      "type": "custommachinery:item",
+      "whitelist": [
+        "#c:ingots",
+        "#c:gunpowders",
+        "minecraft:prismarine_shard",
+        "#c:coal"
+      ],
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "ingredient_3",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item_fuel",
+      "id": "fuel",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item_result",
+      "config": {
+        "TOP": "OUTPUT",
+        "BOTTOM": "OUTPUT",
+        "FRONT": "OUTPUT",
+        "RIGHT": "OUTPUT",
+        "BACK": "OUTPUT",
+        "LEFT": "OUTPUT"
+      },
+      "id": "output",
+      "mode": "output"
     }
   ],
   "gui": [
@@ -74,7 +107,7 @@
     },
     {
       "type": "custommachinery:fuel",
-      "x": 79,
+      "x": 43,
       "y": 38,
       "orientation": "BOTTOM"
     },
@@ -84,10 +117,15 @@
       "y": 78
     },
     {
+      "type": "custommachinery:progress",
+      "x": 84,
+      "y": 40
+    },
+    {
       "type": "custommachinery:slot",
-      "id": "codex",
+      "id": "codex_slot",
       "priority": 1,
-      "x": 23,
+      "x": 5,
       "y": 18,
       "ghost": {
         "items": {
@@ -104,13 +142,13 @@
     {
       "type": "custommachinery:slot",
       "id": "fuel",
-      "x": 77,
-      "y": 53
+      "x": 41,
+      "y": 54
     },
     {
       "type": "custommachinery:slot",
-      "id": "input",
-      "x": 77,
+      "id": "ingredient_1",
+      "x": 23,
       "y": 18,
       "ghost": {
         "items": {
@@ -126,25 +164,25 @@
     },
     {
       "type": "custommachinery:slot",
-      "id": "input",
+      "id": "ingredient_2",
+      "x": 41,
+      "y": 18,
+      "ghost": {
+        "items": {
+          "item": "minecraft:iron_ingot"
+        },
+        "color": {
+          "alpha": 0.4,
+          "red": 0.0,
+          "green": 0.0,
+          "blue": 0.0
+        }
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "ingredient_3",
       "x": 59,
-      "y": 18,
-      "ghost": {
-        "items": {
-          "item": "minecraft:iron_ingot"
-        },
-        "color": {
-          "alpha": 0.4,
-          "red": 0.0,
-          "green": 0.0,
-          "blue": 0.0
-        }
-      }
-    },
-    {
-      "type": "custommachinery:slot",
-      "id": "input",
-      "x": 95,
       "y": 18,
       "ghost": {
         "items": {
@@ -162,8 +200,8 @@
       "type": "custommachinery:slot",
       "id": "output",
       "priority": 1,
-      "x": 128,
-      "y": 31,
+      "x": 119,
+      "y": 36,
       "width": 22,
       "height": 22
     },
