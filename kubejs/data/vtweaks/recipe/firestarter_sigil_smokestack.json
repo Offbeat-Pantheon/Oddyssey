@@ -9,7 +9,6 @@
     "id": "kubejs:firestarter_sigil"
   },
   
-  
   "copyCompsFromLeft": true,
   "copyCompsFromRight": false,
   "strict": true,
