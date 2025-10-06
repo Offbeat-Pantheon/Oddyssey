@@ -1,0 +1,26 @@
+{
+  "type": "vtweaks:anvil",
+  
+  "left": {
+    "id": "minecraft:elytra"
+  },
+ 
+  "right": {
+    "id": "kubejs:firestarter_sigil"
+  },
+  
+  
+  "copyCompsFromLeft": true,
+  "copyCompsFromRight": false,
+  "strict": true,
+  
+  "result": {
+    "id": "minecraft:elytra",
+    "components": {
+      "minecraft:enchantments": {
+        "aileron:smokestack": 3
+      }
+    }
+  },
+  "xpCost": 24
+}
