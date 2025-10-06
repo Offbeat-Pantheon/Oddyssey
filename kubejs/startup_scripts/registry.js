@@ -3,6 +3,8 @@ StartupEvents.registry('item', e => {
   // If you want a custom item model, you can create one in Blockbench and put it in kubejs/assets/kubejs/models/item/test_item.json
   e.create('passion_fruit_seeds').texture('oddyssey:item/passion_fruit_seeds')
   e.create('gunmetal_ingot').texture('oddyssey:item/gunmetal_ingot')
+  e.create('gunmetal_nugget').texture('oddyssey:item/gunmetal_nugget')
+
   e.create('gunmetal_codex').texture('oddyssey:item/gunmetal_codex')
   e.create('ethereal_sigil').texture('oddyssey:item/ethereal_sigil')
   e.create('firestarter_sigil').texture('oddyssey:item/ethereal_sigil')

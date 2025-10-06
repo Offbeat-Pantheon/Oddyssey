@@ -11,6 +11,18 @@ ServerEvents.recipes(e => {
                     'minecraft:amethyst_shard'         
     ),
 
+    e.replaceInput(
+         {output: 'minecraft:spyglass' }, 
+                    'minecraft:amethyst_shard',           
+                    'minecraft:quartz'         
+    ),
+
+    e.replaceInput(
+         {output: 'minecraft:spyglass' }, 
+                    'minecraft:copper_ingot',           
+                    'minecraft:gold_ingot'         
+    ),
+
     // - bountiful fares
     
 
