@@ -21,12 +21,9 @@ ServerEvents.recipes(e => {
   e.custom({
     type: "lychee:anvil_crafting",
     item_in: [
-      {
-        item: "minecraft:elytra"
-      },
-      {
-        item: "kubejs:firestarter_sigil"
-      }
+        "minecraft:elytra",
+        "kubejs:firestarter_sigil"
+      
     ],
      item_out: {
       id: "minecraft:elytra",
@@ -37,7 +34,7 @@ ServerEvents.recipes(e => {
             }
     }
     },
-    level_cost: 2,
+    material_cost: 1,
     post: "prevent_default"
 })
 
