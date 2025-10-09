@@ -103,6 +103,7 @@
     /architects_palette.*twisted/,
     /enderscape.*celestial/,
     /enderscape.*murublight/,
+    /environmental.*pine/,
 
     // - architect's palette
     /architects_palette.*moonshale/,

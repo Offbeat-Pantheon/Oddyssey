@@ -1,9 +1,9 @@
 {
-  "feature": "minecraft:patch_taiga_grass",
+  "feature": "abundant_atmosphere:patch_leaf_pile",
   "placement": [
     {
-      "type": "minecraft:count",
-      "count": 4
+      "type": "minecraft:rarity_filter",
+      "chance": 2
     },
     {
       "type": "minecraft:in_square"

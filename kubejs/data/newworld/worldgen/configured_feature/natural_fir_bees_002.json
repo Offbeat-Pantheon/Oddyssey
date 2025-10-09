@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:tree",
+  "type": "environmental:pine_tree",
   "config": {
     "decorators": [
       {
@@ -7,17 +7,17 @@
         "probability": 0.02
       },
       {
-      "type": "minecraft:alter_ground",
-      "provider": {
-        "type": "minecraft:simple_state_provider",
-        "state": {
-          "Name": "minecraft:podzol",
-          "Properties": {
-            "snowy": "false"
+        "type": "minecraft:alter_ground",
+        "provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:podzol",
+            "Properties": {
+              "snowy": "false"
+            }
           }
         }
       }
-    }
     ],
     "dirt_provider": {
       "type": "minecraft:simple_state_provider",

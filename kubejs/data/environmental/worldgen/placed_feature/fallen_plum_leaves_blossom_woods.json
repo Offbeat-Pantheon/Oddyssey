@@ -1,9 +1,9 @@
 {
-  "feature": "newworld:patch_berry_wooded_meadow",
+  "feature": "abundant_atmosphere:patch_leaf_pile",
   "placement": [
     {
-      "type": "minecraft:rarity_filter",
-      "chance": 12
+      "type": "minecraft:count",
+      "count": 3
     },
     {
       "type": "minecraft:in_square"

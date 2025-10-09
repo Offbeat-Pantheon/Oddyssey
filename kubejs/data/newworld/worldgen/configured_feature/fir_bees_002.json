@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:tree",
+  "type": "environmental:pine_tree",
   "config": {
     "decorators": [
       {
