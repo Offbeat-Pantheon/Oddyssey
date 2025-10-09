@@ -1,0 +1,9 @@
+{
+  "values": [
+    "#minecraft:dirt",
+    "#minecraft:sand",
+    "minecraft:mud",
+    "nomansland:silt",
+    "minecraft:farmland"
+  ]
+}
