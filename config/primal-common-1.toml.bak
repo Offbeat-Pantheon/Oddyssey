@@ -30,8 +30,7 @@
 			# Range: > 1
 			bearSingleMaxGroup = 1
 			#Extra biomes (separated from biome tag) where single bears can spawn.
-			#Must be written as full biome IDs (e.g. "minecraft:plains", "nomansland:maple_forest")
-			#You can use biome tags too, just put a # before (e.g. "#minecraft:is_forest", "#nomansland:is_river")
+			#Must be written as full biome IDs (e.g. "minecraft:plains", "nomansland:maple_forest").
 			#Default = []
 			bearSingleExtraBiomes = []
 
@@ -55,8 +54,7 @@
 			# Range: > 1
 			bearGroupMaxGroup = 2
 			#Extra biomes (separated from biome tag) where bear groups can spawn.
-			#Must be written as full biome IDs (e.g. "minecraft:plains", "nomansland:maple_forest")
-			#You can use biome tags too, just put a # before (e.g. "#minecraft:is_forest", "#nomansland:is_river")
+			#Must be written as full biome IDs (e.g. "minecraft:plains", "nomansland:maple_forest").
 			#Default = []
 			bearGroupExtraBiomes = []
 
@@ -80,8 +78,7 @@
 			# Range: > 1
 			crocodileNormalMaxGroup = 1
 			#Extra biomes (separated from biome tag) where normal crocodiles can spawn.
-			#Must be written as full biome IDs (e.g. "minecraft:plains", "nomansland:maple_forest")
-			#You can use biome tags too, just put a # before (e.g. "#minecraft:is_forest", "#nomansland:is_river")
+			#Must be written as full biome IDs (e.g. "minecraft:plains", "nomansland:maple_forest").
 			#Default = []
 			crocodileNormalExtraBiomes = []
 
@@ -104,9 +101,8 @@
 			# Default: 1
 			# Range: > 1
 			crocodileWarmMaxGroup = 1
-			#Extra biomes (separated from biome tag) where warm crocodiles can spawn
-			#Must be written as full biome IDs (e.g. "minecraft:plains", "nomansland:maple_forest")
-			#You can use biome tags too, just put a # before (e.g. "#minecraft:is_forest", "#nomansland:is_river")
+			#Extra biomes (separated from biome tag) where warm crocodiles can spawn.
+			#Must be written as full biome IDs (e.g. "minecraft:plains", "nomansland:maple_forest").
 			#Default = []
 			crocodileWarmExtraBiomes = []
 
@@ -130,8 +126,7 @@
 			# Range: > 1
 			sharkSingleMaxGroup = 1
 			#Extra biomes (separated from biome tag) where single sharks can spawn.
-			#Must be written as full biome IDs (e.g. "minecraft:plains", "nomansland:maple_forest")
-			#You can use biome tags too, just put a # before (e.g. "#minecraft:is_forest", "#nomansland:is_river")
+			#Must be written as full biome IDs (e.g. "minecraft:plains", "nomansland:maple_forest").
 			#Default = []
 			sharkSingleExtraBiomes = []
 
@@ -155,8 +150,7 @@
 			# Range: > 1
 			sharkGroupMaxGroup = 3
 			#Extra biomes (separated from biome tag) where shark groups can spawn.
-			#Must be written as full biome IDs (e.g. "minecraft:plains", "nomansland:maple_forest")
-			#You can use biome tags too, just put a # before (e.g. "#minecraft:is_forest", "#nomansland:is_river")
+			#Must be written as full biome IDs (e.g. "minecraft:plains", "nomansland:maple_forest").
 			#Default = []
 			sharkGroupExtraBiomes = []
 
@@ -183,8 +177,7 @@
 		# Range: > 0
 		riverReedsPatchSpreadY = 5
 		#Extra biomes (separated from biome tag) where river reeds can spawn.
-		#Must be written as full biome IDs (e.g. "minecraft:plains", "nomansland:maple_forest")
-		#You can use biome tags too, just put a # before (e.g. "#minecraft:is_forest", "#nomansland:is_river")
+		#Must be written as full biome IDs (e.g. "minecraft:plains", "nomansland:maple_forest").
 		#Default = []
 		riverReedsExtraBiomes = []
 
@@ -213,8 +206,7 @@
 		# Range: > 0
 		seaShellsPatchSpreadY = 2
 		#Extra biomes (separated from biome tag) where seashells can spawn.
-		#Must be written as full biome IDs (e.g. "minecraft:plains", "nomansland:maple_forest")
-		#You can use biome tags too, just put a # before (e.g. "#minecraft:is_forest", "#nomansland:is_river")
+		#Must be written as full biome IDs (e.g. "minecraft:plains", "nomansland:maple_forest").
 		#Default = []
 		seaShellsExtraBiomes = []
 
@@ -243,7 +235,6 @@
 		# Range: > 0
 		eagleNestSpreadY = 0
 		#Extra biomes (separated from biome tag) where eagle nests can spawn.
-		#Must be written as full biome IDs (e.g. "minecraft:plains", "nomansland:maple_forest")
-		#You can use biome tags too, just put a # before (e.g. "#minecraft:is_forest", "#nomansland:is_river")
+		#Must be written as full biome IDs (e.g. "minecraft:plains", "nomansland:maple_forest").
 		#Default = []
 		eagleNestExtraBiomes = []
