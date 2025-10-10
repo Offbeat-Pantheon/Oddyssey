@@ -38,7 +38,6 @@ StartupEvents.registry('block', e => {
 
 })
 
-
 // ItemEvents.toolTierRegistry(e => {
 //     e.add('lead', tier => {
 //       tier.uses = 500
