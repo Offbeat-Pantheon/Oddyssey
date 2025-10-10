@@ -20,22 +20,22 @@ ItemEvents.modification(e => {
       item.maxDamage = 200
     })
 
-    e.modify('minecraft:gold_sword', item => {
+    e.modify('minecraft:golden_sword', item => {
       item.maxDamage = 356
     })
-    e.modify('minecraft:gold_pickaxe', item => {
+    e.modify('minecraft:golden_pickaxe', item => {
       item.maxDamage = 356
     })
-    e.modify('minecraft:gold_axe', item => {
+    e.modify('minecraft:golden_axe', item => {
       item.maxDamage = 356
     })
-    e.modify('minecraft:gold_shovel', item => {
+    e.modify('minecraft:golden_shovel', item => {
       item.maxDamage = 356
     })
-    e.modify('minecraft:gold_hoe', item => {
+    e.modify('minecraft:golden_hoe', item => {
       item.maxDamage = 356
     })
-    e.modify('farmersdelight:gold_knife', item => {
+    e.modify('farmersdelight:golden_knife', item => {
       item.maxDamage = 356
     })
 
@@ -284,16 +284,16 @@ ItemEvents.modification(e => {
     e.modify('minecraft:leather_boots', item => {
       item.maxDamage = 150
     })
-    e.modify('minecraft:gold_helmet', item => {
+    e.modify('minecraft:golden_helmet', item => {
       item.maxDamage = 306
     })
-    e.modify('minecraft:gold_chestplate', item => {
+    e.modify('minecraft:golden_chestplate', item => {
       item.maxDamage = 306
     })
-    e.modify('minecraft:gold_leggings', item => {
+    e.modify('minecraft:golden_leggings', item => {
       item.maxDamage = 306
     })
-    e.modify('minecraft:gold_boots', item => {
+    e.modify('minecraft:golden_boots', item => {
       item.maxDamage = 306
     })
 
