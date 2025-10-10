@@ -1,3 +1,4 @@
+
 StartupEvents.registry('item', e => {
   // The texture for this item has to be placed in kubejs/assets/kubejs/textures/item/test_item.png
   // If you want a custom item model, you can create one in Blockbench and put it in kubejs/assets/kubejs/models/item/test_item.json
@@ -21,6 +22,10 @@ StartupEvents.registry('item', e => {
   e.create('thunderbolt_sigil').texture('oddyssey:item/ethereal_sigil')
   e.create('bombshell_sigil').texture('oddyssey:item/ethereal_sigil')
 
+  e.create('electrum_lance', 'sword').texture('oddyssey:item/electrum_lance').tier('electrum').attackDamageBaseline(4).speedBaseline(-2.0)
+  e.create('anchorblade', 'pickaxe').texture('oddyssey:item/anchorblade').tier('iron').attackDamageBaseline(7).speedBaseline(-3.0)
+
+
 
 })
 
@@ -32,3 +37,27 @@ StartupEvents.registry('block', e => {
   e.create('gunmetal_block').texture('oddyssey:block/gunmetal_block')
 
 })
+
+
+// ItemEvents.toolTierRegistry(e => {
+//     e.add('lead', tier => {
+//       tier.uses = 500
+//       tier.speed = 4.0
+//       tier.attackDamageBonus = 2.0
+//       tier.level = 2
+//       tier.enchantmentValue = 9
+//       tier.repairIngredient = 'oreganized:lead_block'
+//     })
+//   })
+// ItemEvents.modification(e => {
+//     e.modify('kubejs:anchorblade', item => {
+//       item.rarity = "RARE"
+//     })
+
+//  e.modify('kubejs:electrum_lance', item => {
+//       item.rarity = "RARE"
+//       item.tier = tier => {
+//       tier.repairIngredient = 'oreganized:electrum_ingot'
+//     }
+//     })
+//   })
