@@ -33,8 +33,15 @@ StartupEvents.registry('item', e => {
 //No need to use the item registry event, the item will be created automatically.
 StartupEvents.registry('block', e => {
 	//Syntax : event.create("namespace:block_id", "custommachinery").machine("namespace:machine_id)
-	e.create("kubejs:foundry", "custommachinery").machine("custommachinery:foundry")
   e.create('gunmetal_block').texture('oddyssey:block/gunmetal_block')
+	e.create("kubejs:foundry", "custommachinery").machine("custommachinery:foundry")
+
+  e.create('oddyssey:foundry_block') // Create a new block
+    .fullBlock(true)
+    .soundType('deepslate') // Set a material (affects the sounds and some properties)
+    .hardness(1.0) // Set hardness (affects mining time)
+    .resistance(1.0) // Set resistance (to explosions, etc)
+
 
 })
 

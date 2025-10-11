@@ -7,12 +7,12 @@
       "custommachinery:ambient_sound": {
         "sound": "minecraft:block.furnace.fire_crackle"
       },
-      "custommachinery:block": "minecraft:furnace#facing=north,lit=true",
+      "custommachinery:block": "oddyssey:foundry_on#facing=north,lit=true",
       "custommachinery:light": 15
     },
-    "custommachinery:block": "minecraft:furnace",
+    "custommachinery:block": "oddyssey:foundry",
     "idle": {
-      "custommachinery:block": "minecraft:blast_furnace"
+      "custommachinery:block": "oddyssey:foundry#open=true"
     }
   },
   "components": [

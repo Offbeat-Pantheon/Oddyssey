@@ -1,0 +1,11 @@
+{
+  "replace": true,
+  "values": {
+    "treeplacer:all_biomes": [
+      {
+        "feature": "oddyssey:willow",
+        "weight": 1
+      }
+    ]
+  }
+}

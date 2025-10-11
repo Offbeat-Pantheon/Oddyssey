@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "environmental:trees_willow",
+    "features": [
+      {
+        "chance": 0.2,
+        "feature": "environmental:swamp_oak"
+      },
+      {
+        "chance": 0.1,
+        "feature": "oddyssey:willow_checked"
+      }
+
+      
+    ]
+  }
+}

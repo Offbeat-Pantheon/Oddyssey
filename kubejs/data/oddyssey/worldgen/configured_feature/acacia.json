@@ -7,16 +7,44 @@
     },
     "features": [
       {
-        "chance": 0.5,
+        "chance": 0.1,
         "feature": {
           "feature": "oddyssey:acacia_variants/2",
           "placement": []
         }
       },
       {
-        "chance": 0.5,
+        "chance": 0.1,
         "feature": {
           "feature": "oddyssey:acacia_variants/3",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.1,
+        "feature": {
+          "feature": "oddyssey:acacia_variants/4",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.1,
+        "feature": {
+          "feature": "oddyssey:acacia_variants/5",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.1,
+        "feature": {
+          "feature": "oddyssey:acacia_variants/6",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.1,
+        "feature": {
+          "feature": "oddyssey:acacia_variants/7",
           "placement": []
         }
       }
