@@ -1,10 +1,17 @@
 [
     {
     "mob": ["minecraft:villager", "minecraft:zombie_villager", "minecraft:wandering_trader", "minecraft:trader_llama", "minecraft:pillager", "minecraft:vindicator"],
+    "when": "onjoin",
     "result": "deny"
     },
     {
-    "mob": ["goblintraders:vein_goblin_trader"],
+    "mob": "goblintraders:vein_goblin_trader",
+    "when": "onjoin",
+    "result": "deny"
+    },
+    {
+    "mob": "hominid:juggernaut",
+    "when": "onjoin",
     "result": "deny"
     }
 ]
