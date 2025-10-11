@@ -28,28 +28,28 @@
         }
       },
       {
-        "chance": 0.2,
+        "chance": 0.15,
         "feature": {
           "feature": "oddyssey:willow_variants/5",
           "placement": []
         }
       },
       {
-        "chance": 0.2,
+        "chance": 0.15,
         "feature": {
           "feature": "oddyssey:willow_variants/6",
           "placement": []
         }
       },
       {
-        "chance": 0.2,
+        "chance": 0.15,
         "feature": {
           "feature": "oddyssey:willow_variants/7",
           "placement": []
         }
       },
       {
-        "chance": 0.2,
+        "chance": 0.15,
         "feature": {
           "feature": "oddyssey:willow_variants/8",
           "placement": []
