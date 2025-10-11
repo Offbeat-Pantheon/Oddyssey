@@ -94,6 +94,4 @@ ServerEvents.recipes(e => {
                     'nomansland:tall_beachgrass'         
     )
     
-
-  console.log('Hello! The recipe event has fired!')
 })

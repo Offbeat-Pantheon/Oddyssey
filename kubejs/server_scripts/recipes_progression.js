@@ -107,10 +107,10 @@ ServerEvents.recipes(e => {
             ' NW'
         ],
         {
-            G: 'kubejs:gunmetal_ingot',
+            G: 'oddyssey:gunmetal_ingot',
             P: 'minecraft:gunpowder',
             W: '#minecraft:planks',
-            N: 'kubejs:gunmetal_nugget',
+            N: 'oddyssey:gunmetal_nugget',
         }
     )
     e.remove({ id: 'musketmod:musket_with_bayonet_smithing'})
@@ -122,11 +122,11 @@ ServerEvents.recipes(e => {
             ' NW'
         ],
         {
-            G: 'kubejs:gunmetal_ingot',
+            G: 'oddyssey:gunmetal_ingot',
             K: 'farmersdelight:iron_knife',
             P: 'minecraft:gunpowder',
             W: '#minecraft:planks',
-            N: 'kubejs:gunmetal_nugget'
+            N: 'oddyssey:gunmetal_nugget'
         }
     )
 
@@ -139,11 +139,11 @@ ServerEvents.recipes(e => {
             ' NW'
         ],
         {
-            G: 'kubejs:gunmetal_ingot',
+            G: 'oddyssey:gunmetal_ingot',
             S: 'minecraft:spyglass',
             P: 'minecraft:gunpowder',
             W: '#minecraft:planks',
-            N: 'kubejs:gunmetal_nugget'
+            N: 'oddyssey:gunmetal_nugget'
         }
     )
 
@@ -159,7 +159,7 @@ ServerEvents.recipes(e => {
             C: 'minecraft:copper_ingot',
             P: 'minecraft:gunpowder',
             W: '#minecraft:planks',
-            N: 'kubejs:gunmetal_nugget'
+            N: 'oddyssey:gunmetal_nugget'
         }
     )
 
@@ -171,10 +171,10 @@ ServerEvents.recipes(e => {
             'NS ',
         ],
         {
-            G: 'kubejs:gunmetal_ingot',
+            G: 'oddyssey:gunmetal_ingot',
             P: 'minecraft:gunpowder',
             S: 'minecraft:stick',
-            N: 'kubejs:gunmetal_nugget'
+            N: 'oddyssey:gunmetal_nugget'
         }
     )
 
@@ -188,7 +188,7 @@ ServerEvents.recipes(e => {
         {
             G: 'minecraft:gunpowder',
             P: 'minecraft:paper',
-            N: 'kubejs:gunmetal_nugget'
+            N: 'oddyssey:gunmetal_nugget'
         }
     )
 
@@ -202,27 +202,27 @@ ServerEvents.recipes(e => {
         {
             G: 'minecraft:gunpowder',
             P: 'minecraft:paper',
-            N: 'kubejs:gunmetal_nugget'
+            N: 'oddyssey:gunmetal_nugget'
         }
     )
 
 
 // - custom materials
     e.shaped(
-        Item.of('kubejs:gunmetal_block', 1),
+        Item.of('oddyssey:gunmetal_block', 1),
         [
             'GGG',
             'GGG',
             'GGG'
         ],
         {
-            G: 'kubejs:gunmetal_ingot'
+            G: 'oddyssey:gunmetal_ingot'
         }
     )
     e.shapeless(
-        Item.of('kubejs:gunmetal_ingot', 9),
+        Item.of('oddyssey:gunmetal_ingot', 9),
         [
-        'kubejs:gunmetal_block'
+        'oddyssey:gunmetal_block'
         ]
     )
 

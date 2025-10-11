@@ -7,18 +7,23 @@
       "custommachinery:ambient_sound": {
         "sound": "minecraft:block.furnace.fire_crackle"
       },
-      "custommachinery:block": "oddyssey:foundry_on#facing=north,lit=true",
+      "custommachinery:block": "oddyssey:foundry_block_open_unlit",
       "custommachinery:light": 15
     },
-    "custommachinery:block": "oddyssey:foundry",
+    "errored": {
+      "custommachinery:block": "oddyssey:foundry_block_open_lit"
+    },
+    "paused": {
+      "custommachinery:block": "oddyssey:foundry_block_open_lit"
+    },
+    "custommachinery:block": "oddyssey:foundry_block_unlit",
     "idle": {
-      "custommachinery:block": "oddyssey:foundry#open=true"
+      "custommachinery:block": "oddyssey:foundry_block_open_unlit"
     }
   },
   "components": [
     {
       "type": "custommachinery:item",
-      "whitelist": "#oddyssey:codexes",
       "id": "codex_slot",
       "mode": "input",
       "capacity": 1
@@ -81,11 +86,6 @@
       "mode": "input"
     },
     {
-      "type": "custommachinery:item_fuel",
-      "id": "fuel",
-      "mode": "input"
-    },
-    {
       "type": "custommachinery:item",
       "config": {
         "TOP": "OUTPUT",
@@ -97,6 +97,11 @@
       },
       "id": "output",
       "mode": "output"
+    },
+    {
+      "type": "custommachinery:item_fuel",
+      "id": "fuel",
+      "mode": "input"
     }
   ],
   "gui": [
@@ -215,8 +220,5 @@
       },
       "jei": true
     }
-  ],
-  "processor": {
-    "type": "custommachinery:machine"
-  }
+  ]
 }

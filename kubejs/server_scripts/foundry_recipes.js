@@ -14,10 +14,10 @@ ServerEvents.recipes(e => {
   //Craft recipe : 
   e.recipes.custommachinery.custom_machine("custommachinery:foundry", 1000)
     .requireFuel()
-    .requireItem('kubejs:gunmetal_codex', "codex_slot").chance(0)
+    .requireItem('oddyssey:gunmetal_codex', "codex_slot").chance(0)
     .requireItemOnEnd('minecraft:copper_ingot')
     .requireItemOnEnd('oreganized:lead_ingot')
     .requireItemOnEnd('minecraft:gunpowder')
-    .produceItem('kubejs:gunmetal_ingot')
+    .produceItem('oddyssey:gunmetal_ingot')
 
 })

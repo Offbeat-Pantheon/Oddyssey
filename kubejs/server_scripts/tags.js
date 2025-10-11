@@ -13,7 +13,7 @@ ServerEvents.tags('item', e => {
     e.add('bountifulfares:plum_logs', 'environmental:stripped_plum_log')
     e.add('bountifulfares:plum_logs', 'environmental:stripped_plum_wood')
 
-    e.add('oddyssey:codexes', 'kubejs:gunmetal_codex')
+    e.add('oddyssey:codexes', 'oddyssey:gunmetal_codex')
     
   
 })

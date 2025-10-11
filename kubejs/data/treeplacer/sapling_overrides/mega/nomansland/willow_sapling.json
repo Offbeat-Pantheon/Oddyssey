@@ -1,0 +1,15 @@
+{
+  "replace": true,
+  "values": {
+    "treeplacer:all_biomes": [
+      {
+        "feature": "nomansland:towering_willow",
+        "weight": 0.5
+      },
+      {
+            "feature" : "nomansland:towering_willow_moss",
+            "weight" : 0.5
+         }
+    ]
+  }
+}
