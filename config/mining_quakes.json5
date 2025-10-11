@@ -1,0 +1,20 @@
+{
+	"lifetime": 6,
+	"horizontalMaxAngle": 7.5,
+	"verticalMaxAngle": 7.5,
+	"horizontalOscillations": 1,
+	"verticalOscillations": 3,
+	"easingFunction": "EASE_IN_OUT",
+	"renderOutline": false,
+	"randomQuakes": false,
+	"blacklist": [
+		"minecraft:tall_grass",
+		"minecraft:short_grass",
+		"nomansland:grass_sprouts",
+		"nomansland:oat_grass",
+		"nomansland:frosted_grass",
+		"nomansland:short_beachgrass",
+		"nomansland:tall_beachgrass",
+		"nomansland:dried_grass"
+	]
+}
