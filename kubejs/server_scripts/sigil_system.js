@@ -1,6 +1,6 @@
 ServerEvents.recipes(e => {
     e.shaped(
-            Item.of('kubejs:firestarter_sigil', 1),
+            Item.of('oddyssey:firestarter_sigil', 1),
             [
                 'SSS',
                 'SCS',
@@ -8,7 +8,7 @@ ServerEvents.recipes(e => {
             ],
             {
                 R: 'rubinated_nether:ruby',
-                S: 'kubejs:ethereal_sigil',
+                S: 'oddyssey:ethereal_sigil',
             }
         )
 
@@ -18,25 +18,25 @@ ServerEvents.recipes(e => {
 
 // - applying sigils 
 
-  e.custom({
-    type: "lychee:anvil_crafting",
-    item_in: [
-        "minecraft:elytra",
-        "kubejs:firestarter_sigil"
+//   e.custom({
+//     type: "lychee:anvil_crafting",
+//     item_in: [
+//         "minecraft:elytra",
+//         "kubejs:firestarter_sigil"
       
-    ],
-     item_out: {
-      id: "minecraft:elytra",
-      components: {
-        "minecraft:enchantments": 
-            {
-            "aileron:smokestack": 3
-            }
-    }
-    },
-    material_cost: 1,
-    post: "prevent_default"
-})
+//     ],
+//      item_out: {
+//       id: "minecraft:elytra",
+//       components: {
+//         "minecraft:enchantments": 
+//             {
+//             "aileron:smokestack": 3
+//             }
+//     }
+//     },
+//     material_cost: 1,
+//     post: "prevent_default"
+//})
 
 
 

@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": "oddyssey:patch_heart_shards",
+  "step": "underground_ores"
+}
