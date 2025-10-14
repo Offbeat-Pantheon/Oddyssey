@@ -35,7 +35,7 @@ StartupEvents.registry('item', e => {
 StartupEvents.registry('block', e => {
 	//Syntax : event.create("namespace:block_id", "custommachinery").machine("namespace:machine_id)
   e.create('oddyssey:gunmetal_block').texture('oddyssey:block/gunmetal_block')
-	e.create("kubejs:foundry", "custommachinery").machine("custommachinery:foundry")
+	e.create("kubejs:foundry", "custommachinery:custom_machine").machine("custommachinery:foundry")
 
   e.create('oddyssey:foundry_block_unlit')
     .fullBlock(true)
