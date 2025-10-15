@@ -1,7 +1,7 @@
 {
   "type": "minecraft:random_selector",
   "config": {
-    "default": "nomansland:pine_checked",
+    "default": "minecraft:swamp_oak",
     "features": [
       {
         "chance": 0.2,
@@ -12,12 +12,8 @@
         "feature": "environmental:trees_willow"
       },
       {
-        "chance": 0.1,
-        "feature": "nomansland:autumnal_oak_checked"
-      },
-      {
-        "chance": 0.2,
-        "feature": "nomansland:large_autumnal_oak_checked"
+        "chance": 0.3,
+        "feature": "minecraft:mangrove_checked"
       }
     ]
   }

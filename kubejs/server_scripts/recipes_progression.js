@@ -21,7 +21,7 @@ ServerEvents.recipes(e => {
     e.shaped(
         Item.of('minecraft:campfire', 1),
         [
-            ' w ',
+            ' W ',
             'WSW',
             'LLL'
         ],
@@ -36,7 +36,7 @@ ServerEvents.recipes(e => {
     e.shaped(
         Item.of('minecraft:soul_campfire', 1),
         [
-            ' w ',
+            ' W ',
             'WSW',
             'LLL'
         ],
@@ -183,21 +183,7 @@ ServerEvents.recipes(e => {
         Item.of('musketmod:cartridge', 3),
         [
             'NNN',
-            'GP',
-        ],
-        {
-            G: 'minecraft:gunpowder',
-            P: 'minecraft:paper',
-            N: 'oddyssey:gunmetal_nugget'
-        }
-    )
-
-    e.remove({ id: 'musketmod:cartridge'})
-    e.shaped(
-        Item.of('musketmod:cartridge', 3),
-        [
-            'NNN',
-            'GP',
+            'GP ',
         ],
         {
             G: 'minecraft:gunpowder',

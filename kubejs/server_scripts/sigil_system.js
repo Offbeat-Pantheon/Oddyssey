@@ -3,7 +3,7 @@ ServerEvents.recipes(e => {
             Item.of('oddyssey:firestarter_sigil', 1),
             [
                 'SSS',
-                'SCS',
+                'SRS',
                 'SSS'
             ],
             {

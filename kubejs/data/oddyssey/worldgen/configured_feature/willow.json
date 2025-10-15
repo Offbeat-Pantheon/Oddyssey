@@ -7,49 +7,49 @@
     },
     "features": [
       {
-        "chance": 0.05,
+        "chance": 0.1,
         "feature": {
           "feature": "oddyssey:willow_variants/2",
           "placement": []
         }
       },
       {
-        "chance": 0.05,
+        "chance": 0.1,
         "feature": {
           "feature": "oddyssey:willow_variants/3",
           "placement": []
         }
       },
       {
-        "chance": 0.05,
+        "chance": 0.1,
         "feature": {
           "feature": "oddyssey:willow_variants/4",
           "placement": []
         }
       },
       {
-        "chance": 0.15,
+        "chance": 0.3,
         "feature": {
           "feature": "oddyssey:willow_variants/5",
           "placement": []
         }
       },
       {
-        "chance": 0.15,
+        "chance": 0.3,
         "feature": {
           "feature": "oddyssey:willow_variants/6",
           "placement": []
         }
       },
       {
-        "chance": 0.15,
+        "chance": 0.3,
         "feature": {
           "feature": "oddyssey:willow_variants/7",
           "placement": []
         }
       },
       {
-        "chance": 0.15,
+        "chance": 0.3,
         "feature": {
           "feature": "oddyssey:willow_variants/8",
           "placement": []
