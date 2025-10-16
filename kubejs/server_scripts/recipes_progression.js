@@ -96,121 +96,121 @@ ServerEvents.recipes(e => {
             R: 'rubinated_nether:ruby'
 
         }
-    ),
-
-    e.remove({ id: 'musketmod:musket'})
-    e.shaped(
-        Item.of('musketmod:musket', 1),
-        [
-            'G  ',
-            ' GP',
-            ' NW'
-        ],
-        {
-            G: 'oddyssey:gunmetal_ingot',
-            P: 'minecraft:gunpowder',
-            W: '#minecraft:planks',
-            N: 'oddyssey:gunmetal_nugget',
-        }
-    )
-    e.remove({ id: 'musketmod:musket_with_bayonet_smithing'})
-    e.shaped(
-        Item.of('musketmod:musket_with_bayonet', 1),
-        [
-            'G  ',
-            'KGP',
-            ' NW'
-        ],
-        {
-            G: 'oddyssey:gunmetal_ingot',
-            K: 'farmersdelight:iron_knife',
-            P: 'minecraft:gunpowder',
-            W: '#minecraft:planks',
-            N: 'oddyssey:gunmetal_nugget'
-        }
     )
 
-    e.remove({ id: 'musketmod:musket_with_scope_smithing'})
-    e.shaped(
-        Item.of('musketmod:musket_with_scope', 1),
-        [
-            'GS ',
-            ' GP',
-            ' NW'
-        ],
-        {
-            G: 'oddyssey:gunmetal_ingot',
-            S: 'minecraft:spyglass',
-            P: 'minecraft:gunpowder',
-            W: '#minecraft:planks',
-            N: 'oddyssey:gunmetal_nugget'
-        }
-    )
+//     e.remove({ id: 'musketmod:musket'})
+//     e.shaped(
+//         Item.of('musketmod:musket', 1),
+//         [
+//             'G  ',
+//             ' GP',
+//             ' NW'
+//         ],
+//         {
+//             G: 'oddyssey:gunmetal_ingot',
+//             P: 'minecraft:gunpowder',
+//             W: '#minecraft:planks',
+//             N: 'oddyssey:gunmetal_nugget',
+//         }
+//     )
+//     e.remove({ id: 'musketmod:musket_with_bayonet_smithing'})
+//     e.shaped(
+//         Item.of('musketmod:musket_with_bayonet', 1),
+//         [
+//             'G  ',
+//             'KGP',
+//             ' NW'
+//         ],
+//         {
+//             G: 'oddyssey:gunmetal_ingot',
+//             K: 'farmersdelight:iron_knife',
+//             P: 'minecraft:gunpowder',
+//             W: '#minecraft:planks',
+//             N: 'oddyssey:gunmetal_nugget'
+//         }
+//     )
 
-    e.remove({ id: 'musketmod:blunderbuss'})
-    e.shaped(
-        Item.of('musketmod:blunderbuss', 1),
-        [
-            'C  ',
-            ' CP',
-            ' NW'
-        ],
-        {
-            C: 'minecraft:copper_ingot',
-            P: 'minecraft:gunpowder',
-            W: '#minecraft:planks',
-            N: 'oddyssey:gunmetal_nugget'
-        }
-    )
+//     e.remove({ id: 'musketmod:musket_with_scope_smithing'})
+//     e.shaped(
+//         Item.of('musketmod:musket_with_scope', 1),
+//         [
+//             'GS ',
+//             ' GP',
+//             ' NW'
+//         ],
+//         {
+//             G: 'oddyssey:gunmetal_ingot',
+//             S: 'minecraft:spyglass',
+//             P: 'minecraft:gunpowder',
+//             W: '#minecraft:planks',
+//             N: 'oddyssey:gunmetal_nugget'
+//         }
+//     )
 
-    e.remove({ id: 'musketmod:pistol'})
-    e.shaped(
-        Item.of('musketmod:pistol', 1),
-        [
-            'GP ',
-            'NS ',
-        ],
-        {
-            G: 'oddyssey:gunmetal_ingot',
-            P: 'minecraft:gunpowder',
-            S: 'minecraft:stick',
-            N: 'oddyssey:gunmetal_nugget'
-        }
-    )
+//     e.remove({ id: 'musketmod:blunderbuss'})
+//     e.shaped(
+//         Item.of('musketmod:blunderbuss', 1),
+//         [
+//             'C  ',
+//             ' CP',
+//             ' NW'
+//         ],
+//         {
+//             C: 'minecraft:copper_ingot',
+//             P: 'minecraft:gunpowder',
+//             W: '#minecraft:planks',
+//             N: 'oddyssey:gunmetal_nugget'
+//         }
+//     )
 
-    e.remove({ id: 'musketmod:cartridge'})
-    e.shaped(
-        Item.of('musketmod:cartridge', 3),
-        [
-            'NNN',
-            'GP ',
-        ],
-        {
-            G: 'minecraft:gunpowder',
-            P: 'minecraft:paper',
-            N: 'oddyssey:gunmetal_nugget'
-        }
-    )
+//     e.remove({ id: 'musketmod:pistol'})
+//     e.shaped(
+//         Item.of('musketmod:pistol', 1),
+//         [
+//             'GP ',
+//             'NS ',
+//         ],
+//         {
+//             G: 'oddyssey:gunmetal_ingot',
+//             P: 'minecraft:gunpowder',
+//             S: 'minecraft:stick',
+//             N: 'oddyssey:gunmetal_nugget'
+//         }
+//     )
+
+//     e.remove({ id: 'musketmod:cartridge'})
+//     e.shaped(
+//         Item.of('musketmod:cartridge', 3),
+//         [
+//             'NNN',
+//             'GP ',
+//         ],
+//         {
+//             G: 'minecraft:gunpowder',
+//             P: 'minecraft:paper',
+//             N: 'oddyssey:gunmetal_nugget'
+//         }
+//     )
 
 
-// - custom materials
-    e.shaped(
-        Item.of('oddyssey:gunmetal_block', 1),
-        [
-            'GGG',
-            'GGG',
-            'GGG'
-        ],
-        {
-            G: 'oddyssey:gunmetal_ingot'
-        }
-    )
-    e.shapeless(
-        Item.of('oddyssey:gunmetal_ingot', 9),
-        [
-        'oddyssey:gunmetal_block'
-        ]
-    )
+// // - custom materials
+//     e.shaped(
+//         Item.of('oddyssey:gunmetal_block', 1),
+//         [
+//             'GGG',
+//             'GGG',
+//             'GGG'
+//         ],
+//         {
+//             G: 'oddyssey:gunmetal_ingot'
+//         }
+//     )
+//     e.shapeless(
+//         Item.of('oddyssey:gunmetal_ingot', 9),
+//         [
+//         'oddyssey:gunmetal_block'
+//         ]
+//     )
 
     
 })
