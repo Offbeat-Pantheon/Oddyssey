@@ -184,7 +184,7 @@ e.remove({ id: 'bountifulfares:glow_berry_tart' }),
 e.custom({
         type: "cookscollection:baking",
         ingredients: [
-            {"item": "minecraft:glowberries"},
+            {"item": "minecraft:glow_berries"},
             {"tag": "c:eggs"},
             {"item": "minecraft:sugar"},
             {"item": "farmersdelight:pie_crust"}
@@ -198,7 +198,7 @@ e.remove({ id: 'bountifulfares:sweet_berry_tart' }),
 e.custom({
         type: "cookscollection:baking",
         ingredients: [
-            {"item": "minecraft:sweetberries"},
+            {"item": "minecraft:sweet_berries"},
             {"tag": "c:eggs"},
             {"item": "minecraft:sugar"},
             {"item": "farmersdelight:pie_crust"}
@@ -844,7 +844,7 @@ e.custom({
             {"tag": "c:eggs"},
   ],
         result: 
-            {id: "nomansland:food/pear_cobbler", count: 1},
+            {id: "nomansland:pear_cobbler", count: 1},
         cookingtime: 200
 }),
 
