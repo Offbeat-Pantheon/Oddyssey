@@ -1,9 +1,4 @@
  global.nukelist = [ 
-    'minecraft:brewing_stand',
-    'minecraft:enchanted_book',
-    'minecraft:eye_of_ender',
-    'minecraft:enchanting_table',
-    'arts_and_crafts:pottery_sherd',
     'arts_and_crafts:finale_pottery_sherd',
     'atmospheric:passion_vine',
     'atmospheric:passion_vine_coil',
@@ -30,8 +25,6 @@
     'cookscollection:fruiting_lemon_leaves',
     'cookscollection:rustic_loaf',
     'cookscollection:rustic_loaf_slice',
-    'cold_sweat:soul_sprout',
-    'cold_sweat:soulspring_lantern',
     'nomansland:pear_cobbler_slice',
     'nomansland:spruce_bookshelf',
     'nomansland:birch_bookshelf',
@@ -69,11 +62,6 @@
     "primal:straw_bale",
     "primal:seashells",
     "piglinproliferation:stone_fire_ring",
-    "wan_ancient_beast:suspicious_red_sand",
-    "wan_ancient_beast:suspicious_ice",
-    "wan_ancient_beast:chisel",
-    "wan_ancient_beast:quick_sand_bucket",
-    "wan_ancient_beast:quick_red_sand_bucket",
     /arts_and_crafts.*shingle/,
     /arts_and_crafts.*mud/,
     /arts_and_crafts.*paintbrush/,
@@ -152,7 +140,7 @@
 
 // I like to separate the different things by registry type, so below could be the fluid section
 
-    'examplemod:examplefluidid', // Last option can end with a comma
+//    'examplemod:examplefluidid', // Last option can end with a comma
 
 ]
 const woodenBlocks = [
