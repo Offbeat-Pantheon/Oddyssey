@@ -1,0 +1,125 @@
+#Tweaks
+[tweaks]
+
+	#Creeper Sunlight Burn
+	[tweaks.creeperSunlightBurn]
+		#Creepers burn when in direct sunlight, just like Zombies and Skeletons do.
+		enableCreeperSunlightBurn = false
+
+	#Improved Recovery Compass
+	[tweaks.improvedRecoveryCompass]
+		#Toggle between showing distance and coordinates when right-clicking recovery compass.
+		showCoordsOnRightClick = false
+		#Enable improvements to the Recovery Compass.
+		enableImprovedRecoveryCompass = true
+		#Keep Recovery Compass in your inventory when you die (ignores keepInventory gamerule).
+		keepCompassOnDeath = true
+		#Show distance to death location in action bar when holding recovery compass.
+		showDistance = true
+		#Send sculk particles pointing to death location when shift + right-clicking recovery compass.
+		sculkParticles = true
+
+	#Treasure Enchantment Gold Color
+	[tweaks.treasureEnchantmentGoldColor]
+		#Make beneficial treasure enchantments (Mending, Frost Walker, Soul Speed, Swift Sneak) display in gold color. Curses remain red.
+		enableTreasureEnchantmentGoldColor = false
+
+	#Armed Armor Stands
+	[tweaks.armedArmorStands]
+		#Armor Stands placed by the Armor Stand item will have arms; you may also give them items.
+		enableArmedArmorStands = true
+
+	#Double Door Opening
+	[tweaks.doubleDoorOpening]
+		#Double doors open together when right clicked.
+		enableDoubleDoorOpening = true
+		#Crouch + right-click a double door to only affect the clicked door.
+		crouchSingleDoor = true
+		#Open up to 5 touching trapdoors at once when right-clicking.
+		chainTrapdoors = true
+		#When a door is opened/closed via redstone, mirror the state to its paired door.
+		doubleDoorsWithRedstone = true
+		#Also apply redstone mirroring to iron doors.
+		includeIronDoorsWithRedstone = true
+		#Also apply redstone mirroring to touching trapdoors (chain up to 5).
+		includeTrapDoorsWithRedstone = true
+
+	#Curse Uses
+	[tweaks.curseUses]
+		#Pumpkins with Curse of Vanishing will not show the pumpkin overlay when worn by an entity (mainly for Players).
+		hidePumpkinOverlayOnVanishing = true
+
+	#Despawn With Master
+	[tweaks.despawnWithMaster]
+		#When an Evoker is removed from the world, despawn all Vex summoned by that Evoker.
+		despawnVexWithEvoker = true
+		#When a Shulker is removed from the world, despawn all Shulker Bullets fired by that Shulker.
+		despawnBulletsWithShulker = true
+
+	#Sophisticated Scaffolding
+	[tweaks.sophisticatedScaffolding]
+		#When breaking scaffolding, all drops appear at your location.
+		enableSophisticatedScaffolding = true
+
+	#Brushing XP Rewards
+	[tweaks.brushingXp]
+		#Spawn XP when finishing brushing a brushable block; scales with loot rarity.
+		enabled = false
+		#Minimum XP to spawn when brushing completes (inclusive).
+		# Default: 1
+		# Range: 0 ~ 100
+		min = 1
+		#Maximum XP to spawn when brushing completes (inclusive).
+		# Default: 10
+		# Range: 0 ~ 100
+		max = 10
+
+	#Compostable Items
+	[tweaks.compostableItems]
+		#Enable compostable items feature (master toggle).
+		enableCompostableItems = true
+		#Allow Rotten Flesh to be composted (30% chance).
+		enableCompostableRottenFlesh = true
+		#Allow Poisonous Potatoes to be composted (65% chance).
+		enableCompostablePoisonousPotato = true
+
+	#Responsive Shields
+	[tweaks.responsiveShields]
+		#Enable responsive shields feature (removes shield blocking delay).
+		enableResponsiveShields = true
+		#Number of ticks from when you start blocking to when the shield actually blocks damage. 0 = instant blocking, 5 = vanilla delay.
+		# Default: 0
+		# Range: 0 ~ 100
+		shieldRaiseTime = 0
+
+	#Improved Climbables
+	[tweaks.improvedClimbables]
+		#Right-clicking a climbable block with a climbable item (ladder, vines, glow berries, etc.) places it at the bottom of the chain.
+		enableLadderChainPlacement = true
+		#When on a climbable block, looking down will make you slide down very quickly.
+		enableFastLadderSlide = true
+		#Fixed climb-down speed on climbable blocks while looking down (blocks per tick).
+		# Default: 0.4
+		# Range: 0.05 ~ 1.0
+		fastLadderSlideSpeed = 0.4
+		#Minimum look-down angle in degrees to start scaling fast slide (0-90).
+		# Default: 45
+		# Range: 0 ~ 90
+		fastLadderLookDownMinDeg = 45
+		#Maximum look-down angle in degrees for full fast slide (0-90).
+		# Default: 90
+		# Range: 0 ~ 90
+		fastLadderLookDownMaxDeg = 90
+
+	#Glowing Glowberries
+	[tweaks.glowingGlowberries]
+		#Give the Glowing effect to entities that consume glowberries.
+		enableGlowingGlowberries = true
+		#Duration of the Glowing effect in seconds when consuming glowberries.
+		# Default: 15
+		# Range: 1 ~ 300
+		glowingDuration = 15
+		#Duration of the Glowing effect in seconds for foxes when they hold glowberries.
+		# Default: 5
+		# Range: 1 ~ 300
+		foxGlowingDuration = 5

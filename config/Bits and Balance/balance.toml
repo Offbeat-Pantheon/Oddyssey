@@ -48,11 +48,11 @@
 		# Range: 0.0 ~ 1.0
 		surfaceEquipChance = 0.1
 		#Chance per armor slot to equip a piece at mid tier (0.0-1.0).
-		# Default: 0.28
+		# Default: 0.25
 		# Range: 0.0 ~ 1.0
 		midEquipChance = 0.28
 		#Chance per armor slot to equip a piece at deep tier (0.0-1.0).
-		# Default: 0.35
+		# Default: 0.5
 		# Range: 0.0 ~ 1.0
 		deepEquipChance = 0.35
 		#Surface tier: probability weight for Leather armor when equipping.
@@ -64,7 +64,7 @@
 		# Range: 0.0 ~ 100.0
 		surfaceChainWeight = 0.1
 		#Surface tier: probability weight for Gold armor when equipping.
-		# Default: 0.26
+		# Default: 0.25
 		# Range: 0.0 ~ 100.0
 		surfaceGoldWeight = 0.26
 		#Surface tier: probability weight for Iron armor when equipping.
@@ -88,7 +88,7 @@
 		# Range: 0.0 ~ 100.0
 		midIronWeight = 0.15
 		#Deep tier: probability weight for Leather armor when equipping.
-		# Default: 0.2
+		# Default: 0.5
 		# Range: 0.0 ~ 100.0
 		deepLeatherWeight = 0.2
 		#Deep tier: probability weight for Chain armor when equipping.

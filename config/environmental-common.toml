@@ -1,3 +1,7 @@
+[mobs]
+	#If Pinecone Golems should be created when placing a Carved Pumpkin on top of a Pinecone
+	"Pinecone Golems" = true
+
 	[mobs.pig]
 		#If Pigs can be made muddy by walking in Mud or being hit with Mud Balls
 		"Muddy Pigs" = false
@@ -40,7 +44,7 @@
 		#The chance Deer have to spawn with Antlers; 0.0 for never, 1.0 for always
 		# Default: 0.5
 		# Range: 0.0 ~ 1.0
-		"Deer Antler chance" = 0.5
+		"Deer antler chance" = 0.5
 
 	[mobs.koi]
 		#Make Koi only block natural spawns

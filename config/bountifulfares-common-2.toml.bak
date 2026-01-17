@@ -1,0 +1,34 @@
+#Gristmill milling time, in seconds
+# Default: 4
+# Range: 1 ~ 10
+millingTime = 4
+#Fermentation time, in seconds
+# Default: 300
+# Range: 1 ~ 600
+fermentationTime = 300
+#Fruits on trees replant when picked
+infusedCandleRadius = true
+#Flour can be thrown
+enableFlourThrowing = true
+#Flour throwing cooldown, in ticks
+# Default: 0
+# Range: 0 ~ 20
+flourThrowingCooldown = 0
+#Foods with containers can be eaten on Ceramic Dishes
+containerFoodsEatableOnDish = false
+#Pumpkin Pie can be placed as a block
+enablePlaceablePumpkinPie = true
+#Cakes make eating sounds
+cakeEatSounds = true
+#Sweet Berries cannot place Sweet Berry Bushes
+enableSweetBerryPips = disable
+#Sniffers can dig up Hoary Seeds
+enableHoarySeeds = true
+#Sniffers can dig up Lapisberry Seeds
+enableLapisberrySeeds = true
+#Grass loot tables are overridden
+grassLootTableOverride = true
+#Elder Guardians drop Spongekin Seeds
+enableGuardianSpongekinSeeds = true
+#Show compatibility items in recipe viewers
+showCompatItemsInRecipeViewers = true

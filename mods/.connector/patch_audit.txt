@@ -1,0 +1,23 @@
+==== Connector Mixin Patch Audit Summary ====
+Successful: 3
+Partial: 0
+Failed: 0
+Success rate: 100.00%        Accuracy: 100.00%
+=============================================
+
+Mixin method com/github/vini2003/linkart/mixin/AbstractMinecartEntityMixin modifiedMovement(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/Vec3;
+  >> Using org.sinytra.adapter.patch.transformer.dynfix.DynFixSplitMethod
+     - Adjusting split method target to moveMinecartOnRail(Lnet/minecraft/core/BlockPos;)V
+  >> Using org.sinytra.adapter.patch.transformer.operation.unit.ModifyInjectionTarget
+     - Change mixin target to [moveMinecartOnRail(Lnet/minecraft/core/BlockPos;)V]
+
+Mixin method com/github/vini2003/linkart/mixin/AbstractMinecartEntityMixin linkart$skipVelocityClamping(DDDLcom/llamalad7/mixinextras/injector/wrapoperation/Operation;)D
+  >> Using org.sinytra.adapter.patch.transformer.dynfix.DynFixSplitMethod
+     - Adjusting split method target to moveMinecartOnRail(Lnet/minecraft/core/BlockPos;)V
+  >> Using org.sinytra.adapter.patch.transformer.operation.unit.ModifyInjectionTarget
+     - Change mixin target to [moveMinecartOnRail(Lnet/minecraft/core/BlockPos;)V]
+
+Mixin method com/terraformersmc/terraform/boat/impl/mixin/MixinBoatEntityRenderer terraformWood$getBoatTextureAndModel(Ljava/util/Map;Ljava/lang/Object;Lcom/llamalad7/mixinextras/injector/wrapoperation/Operation;Lnet/minecraft/world/entity/vehicle/Boat;)Ljava/lang/Object;
+  >> Using org.sinytra.adapter.patch.transformer.operation.unit.ModifyInjectionTarget
+     - Change mixin target to [getModelWithLocation(Lnet/minecraft/world/entity/vehicle/Boat;)Lcom/mojang/datafixers/util/Pair;]
+

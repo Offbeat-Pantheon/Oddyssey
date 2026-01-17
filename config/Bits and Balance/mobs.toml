@@ -89,13 +89,3 @@
 		[mobs.improvedPhantoms.betterCombatIntegration]
 			#Enable Better Combat mod integration for enhanced phantom combat mechanics. Only takes effect if Better Combat is installed.
 			enableBetterCombatIntegration = true
-
-		#Debug Logging
-		[mobs.improvedPhantoms.phantomDebug]
-			#Enable debug logging for phantom mechanics (for troubleshooting).
-			enablePhantomDebugLogging = false
-
-		#Spider Replacement Debug
-		[mobs.improvedPhantoms.spiderDebug]
-			#Enable debug logging for spider replacement mechanics (for troubleshooting).
-			enableSpiderDebugLogging = false

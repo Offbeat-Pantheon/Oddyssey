@@ -99,6 +99,50 @@
       },
       "sync": "brewinandchewin:tipsy"
     },
+    "cold_sweat:body_temp": {
+      "displacement": {
+        "x": 0,
+        "y": 8
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "DOWN"
+      },
+      "sync": "cold_sweat:body_temp"
+    },
+    "cold_sweat:food_effects": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "DOWN"
+      },
+      "sync": "enderscape:mirror_screen"
+    },
+    "cold_sweat:vague_temp": {
+      "displacement": {
+        "x": 0,
+        "y": 8
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "DOWN"
+      },
+      "sync": "cold_sweat:vague_temp"
+    },
+    "cold_sweat:world_temp": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "cold_sweat:world_temp"
+    },
     "create:blueprint": {
       "displacement": {
         "x": 0,
@@ -197,6 +241,39 @@
         "y": "NONE"
       },
       "sync": "create:value_settings"
+    },
+    "dsurround:layer/overlaymanager": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "dsurround:layer/overlaymanager"
+    },
+    "dungeonsdelight:ravenous_rush_vignette": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "dungeonsdelight:ravenous_rush_vignette"
+    },
+    "dungeonsdelight:voracity_overlay": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "dungeonsdelight:voracity_overlay"
     },
     "enderscape:debug": {
       "displacement": {
@@ -308,6 +385,39 @@
       },
       "sync": "minecraft:hotbar"
     },
+    "immersiveoverlays:biome": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "immersiveoverlays:biome"
+    },
+    "immersiveoverlays:clock": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "immersiveoverlays:clock"
+    },
+    "immersiveoverlays:compass": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "immersiveoverlays:compass"
+    },
     "immersiveoverlays:overlay": {
       "displacement": {
         "x": 0,
@@ -318,6 +428,28 @@
         "y": "NONE"
       },
       "sync": "immersiveoverlays:overlay"
+    },
+    "immersiveoverlays:speed": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "immersiveoverlays:speed"
+    },
+    "immersiveoverlays:temperature": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "immersiveoverlays:temperature"
     },
     "map_atlases:atlas": {
       "displacement": {
@@ -418,6 +550,17 @@
       },
       "sync": "minecraft:subtitles"
     },
+    "minecraft:titles": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "minecraft:titles"
+    },
     "minecraft:toasts": {
       "displacement": {
         "x": 0,
@@ -428,6 +571,17 @@
         "y": "DOWN"
       },
       "sync": "minecraft:toasts"
+    },
+    "oreganized:stunning": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "oreganized:stunning"
     },
     "overflowingbars:toughness_level": {
       "displacement": {
@@ -450,6 +604,28 @@
         "y": "NONE"
       },
       "sync": "rubinated_nether:ruby_lens_overlay"
+    },
+    "shouldersurfing:post_crosshair": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "shouldersurfing:post_crosshair"
+    },
+    "shouldersurfing:pre_crosshair": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "shouldersurfing:pre_crosshair"
     },
     "sleep_tight:sleep_indicator": {
       "displacement": {
@@ -505,6 +681,17 @@
         "y": "NONE"
       },
       "sync": "usefulspyglass:hud_base"
+    },
+    "vista:viewfinder": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "vista:viewfinder"
     }
   },
   "resource": {

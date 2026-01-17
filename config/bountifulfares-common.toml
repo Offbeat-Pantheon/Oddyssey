@@ -1,0 +1,38 @@
+#Gristmill milling time, in seconds
+# Default: 4
+# Range: 1 ~ 10
+milling_time = 4
+#Fermentation time, in seconds
+# Default: 300
+# Range: 1 ~ 600
+fermentation_time = 300
+#Size of area where Infused Candles give effects
+# Default: 3
+# Range: 1 ~ 16
+infused_candle_radius = 3
+#Fruits on trees replant when picked
+fruit_replace_when_picked = true
+#Flour can be thrown
+flour_throwing = true
+#Flour throwing cooldown, in ticks
+# Default: 0
+# Range: 0 ~ 20
+flour_throwing_cooldown = 0
+#Foods with containers can be eaten on Ceramic Dishes
+container_foods_eatable_on_dish = false
+#Pumpkin Pie can be placed as a block
+placeable_pumpkin_pie = true
+#Cakes make eating sounds
+cake_eating_sounds = true
+#Sweet Berries cannot place Sweet Berry Bushes
+sweet_berry_pips = true
+#Sniffers can dig up Hoary Seeds
+hoary_seeds = true
+#Sniffers can dig up Lapisberry Seeds
+lapisberry_seeds = true
+#Grass loot tables are overridden
+grass_loot_table_override = true
+#Guardians drop Spongekin Seeds
+spongekin_seeds_guardian = true
+#Show compatibility items in recipe viewers
+show_compat_items_in_recipe_viewers = true

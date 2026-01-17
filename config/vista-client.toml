@@ -1,0 +1,5 @@
+[television]
+	#Render distance that television will use when rendering the live feed. Decreasing this will improve the performance of TVs, possibly by a lot
+	# Default: 64
+	# Range: 1 ~ 256
+	live_feed_render_distance = 64

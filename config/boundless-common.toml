@@ -1,0 +1,2 @@
+#A list of quest category IDs to completely disable.
+disabledQuestCategories = []

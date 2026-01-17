@@ -1,0 +1,152 @@
+#Disables certain types. Note that all these configs, like in any other mod, only hide stuff from tabs and disable their recipes
+[types]
+
+		[types.wood_type.newworld]
+			fir = true
+
+		[types.wood_type.arts_and_crafts]
+			cork = true
+
+		[types.wood_type.nomansland]
+			pine = true
+			maple = true
+			walnut = true
+			willow = true
+
+		[types.wood_type.enderscape]
+			veiled = true
+			celestial = false
+			murublight = false
+
+		[types.wood_type.upgrade_aquatic]
+			driftwood = true
+			river = true
+
+		[types.wood_type.atmospheric]
+			grimwood = true
+			rosewood = true
+			morado = true
+			yucca = true
+			aspen = true
+			laurel = true
+			kousa = true
+
+		[types.wood_type.autumnity]
+			maple = false
+
+		[types.wood_type.abundant_atmosphere]
+			ashroot = true
+			gourdrot = true
+
+		[types.wood_type.bountifulfares]
+			hoary = true
+			walnut = false
+
+		[types.wood_type.architects_palette]
+			twisted = false
+
+		[types.leaves_type.newworld]
+			fir = false
+
+		[types.leaves_type.arts_and_crafts]
+			cork = false
+
+		[types.leaves_type.nomansland]
+			yellow_birch = false
+			autumnal_oak = false
+			pale_cherry = false
+			frosted = false
+			pine = false
+			maple = false
+			red_maple = false
+			walnut = false
+			willow = false
+			apple_fruit = false
+			pear_fruit = false
+
+		[types.leaves_type.autumnity]
+			yellow_maple = false
+			orange_maple = false
+			red_maple = false
+			maple = true
+
+		[types.leaves_type.upgrade_aquatic]
+			river = false
+
+		[types.leaves_type.atmospheric]
+			rosewood = false
+			morado = false
+			flowering_morado = false
+			yucca = false
+			aspen = false
+			green_aspen = false
+			laurel = false
+			dry_laurel = false
+			kousa = false
+			currant = false
+			grimwood = false
+
+		[types.leaves_type.abundant_atmosphere]
+			ashroot = false
+			gourdrot = false
+
+		[types.leaves_type.bountifulfares]
+			apple = false
+			flowering_apple = false
+			orange = false
+			flowering_orange = false
+			lemon = false
+			flowering_lemon = false
+			plum = false
+			flowering_plum = false
+			hoary = false
+			walnut = false
+			golden_apple = false
+			flowering_golden_apple = false
+
+		[types.leaves_type.architects_palette]
+			twisted = false
+
+		[types.leaves_type.cookscollection]
+			lemon = false
+			fruiting_lemon = false
+
+#Disables specific entries
+[entries]
+
+		[entries.wood_type.farmersdelight]
+			cabinet = true
+
+		[entries.wood_type.woodworks]
+			bookshelf = true
+			chiseled_bookshelf = true
+			trapped_chest = true
+			boards = true
+			chest = true
+			ladder = true
+			beehive = true
+
+		[entries.wood_type.boatload]
+			large_boat = true
+			furnace_boat = true
+
+		[entries.wood_type.architects_palette]
+			boards = false
+			board_stairs = false
+			railing = false
+			board_wall = false
+			board_slab = false
+
+		[entries.wood_type.nomansland]
+			bookshelf = true
+			trimmed_planks = true
+
+		[entries.wood_type.carpentry_and_chisels]
+			pole = true
+			stripped_log_slab = true
+			carved_wood = true
+			stripped_pole = true
+			log_slab = true
+
+		[entries.leaves_type.woodworks]
+			leaf_pile = false

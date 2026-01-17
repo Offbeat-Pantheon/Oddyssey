@@ -6,13 +6,11 @@
 		#Enable alternative crafting recipe for Redstone Repeater using sticks and stone.
 		enableAlternativeRepeaterRecipe = true
 		#Enable alternative crafting recipe for Chest using logs (4 chests per recipe).
-		enableChestFromLogsRecipe = true
+		enableChestFromLogsRecipe = false
 		#Enable alternative crafting recipe for Recovery Compass using echo shards and compass.
 		enableRecoveryCompassRecipe = true
-		#Enable alternative shapeless recipe for dyeing wool with any dye.
-		enableWoolDyeingRecipe = true
 		#Enable alternative crafting recipe for Ender Eye using echo shard, wind charge, blaze powder, and ender pearl.
-		enableEnderEyeRecipe = true
+		enableEnderEyeRecipe = false
 		#Enable smelting recipe for raw iron block to iron block.
 		enableRawIronSmeltingRecipe = true
 		#Enable smelting recipe for raw gold block to gold block.
@@ -25,3 +23,18 @@
 		enableRawGoldBlastingRecipe = true
 		#Enable blasting recipe for raw copper block to copper block (faster than smelting).
 		enableRawCopperBlastingRecipe = true
+		#Enable alternative crafting recipe for Map using black dye instead of compass.
+		enableMapInkSacRecipe = true
+		#Override ALL stair recipes (vanilla, modded, and custom) to output 8 stairs instead of 4.
+		enableStairRecipeOverride = true
+		#Add compact 2x2 stair recipes for ALL stair types (3 blocks in corner = 4 stairs). Works with any mod!
+		enableCompactStairRecipe = true
+
+	#Fuel Tweaks
+	[recipes.fuelTweaks]
+		#Enable torch as fuel for furnaces.
+		enableTorchFuel = true
+		#Burn time for torches in ticks (400 ticks = 20 seconds).
+		# Default: 400
+		# Range: 0 ~ 10000
+		torchBurnTime = 400

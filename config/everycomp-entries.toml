@@ -37,6 +37,7 @@
 		[types.wood_type.abundant_atmosphere]
 			ashroot = true
 			gourdrot = true
+			red_bamboo = true
 
 		[types.wood_type.bountifulfares]
 			hoary = true
@@ -44,6 +45,24 @@
 
 		[types.wood_type.architects_palette]
 			twisted = false
+
+		[types.wood_type.pearfection]
+			callery = true
+
+		[types.wood_type.environmental]
+			willow = true
+			pine = true
+			plum = true
+			wisteria = true
+
+		[types.wood_type.vanillabackport]
+			pale_oak = true
+
+		[types.wood_type.darkerdepths]
+			petrified = true
+
+		[types.wood_type.bitsandbalance]
+			azalea = true
 
 		[types.leaves_type.newworld]
 			fir = false
@@ -110,6 +129,26 @@
 		[types.leaves_type.cookscollection]
 			lemon = false
 			fruiting_lemon = false
+
+		[types.leaves_type.pearfection]
+			callery = true
+			flowering_callery = true
+
+		[types.leaves_type.environmental]
+			hibiscus = true
+			willow = true
+			pine = true
+			plum = true
+			cheerful_plum = true
+			moody_plum = true
+			wisteria = true
+			pink_wisteria = true
+			blue_wisteria = true
+			purple_wisteria = true
+			white_wisteria = true
+
+		[types.leaves_type.vanillabackport]
+			pale_oak = true
 
 #Disables specific entries
 [entries]

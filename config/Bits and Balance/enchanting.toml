@@ -1,0 +1,35 @@
+#Enchanting
+[enchanting]
+
+	#Aerodynamic
+	[enchanting.aerodynamic]
+		#Enable the Aerodynamic enchantment: reduces horizontal drag based on altitude, allowing longer and faster gliding.
+		enabled = true
+		#Maximum level for the Aerodynamic enchantment (fixed at 1, like Mending).
+		# Default: 1
+		# Range: 1 ~ 1
+		maxLevel = 1
+		#Base drag reduction percentage per level (0.1 = 10% reduction per level).
+		# Default: 0.15
+		# Range: 0.01 ~ 0.5
+		baseDragReduction = 0.15
+		#Altitude multiplier for drag reduction (higher altitude = more effect). Effect scales from sea level (Y=64) upward.
+		# Default: 0.01
+		# Range: 0.001 ~ 0.1
+		altitudeMultiplier = 0.01
+		#Minimum altitude (Y-level) where the enchantment begins to take effect.
+		# Default: 64
+		# Range: 0 ~ 320
+		minAltitude = 64
+		#Altitude (Y-level) where the enchantment reaches maximum effectiveness.
+		# Default: 320
+		# Range: 64 ~ 500
+		maxAltitude = 320
+		#Cloud level (Y-level) where the aerodynamic effect begins to ramp up.
+		# Default: 192.0
+		# Range: -2032.0 ~ 4064.0
+		cloudLevel = 192.0
+		#Speed multiplier for the aerodynamic effect intensity.
+		# Default: 1.0
+		# Range: 0.1 ~ 2.0
+		speedMultiplier = 1.0

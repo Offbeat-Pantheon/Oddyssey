@@ -1,0 +1,91 @@
+# LambDynamicLights configuration.
+# The dynamic lights mode
+mode = "fancy"
+
+# Light sources settings.
+[light_sources]
+	# Enables water-sensitive light sources check. This means that water-sensitive items will not light up when submerged in water.
+	water_sensitive_check = true
+	# Enable first-person player light source.
+	self = true
+	# TNT lighting mode. May be off, simple or fancy.
+	tnt = "off"
+	# Enable entities light source.
+	entities = true
+	# Creeper lighting mode. May be off, simple or fancy.
+	creeper = "simple"
+
+			[light_sources.settings.entities.minecraft]
+				chicken = true
+				ravager = true
+				sniffer = true
+				arrow = true
+				cow = true
+				chest_minecart = true
+				slime = true
+				skeleton = true
+				bat = true
+				husk = true
+				armadillo = true
+				rabbit = true
+				cat = true
+				zombie = true
+				wind_charge = true
+				drowned = true
+				player = true
+				item = true
+				turtle = true
+				villager = true
+				salmon = true
+				wandering_trader = true
+				zombie_villager = true
+				polar_bear = true
+				horse = true
+				falling_block = true
+				glow_squid = true
+				witch = true
+				cod = true
+				glow_item_frame = false
+				squid = true
+				snowball = true
+				spider = true
+				creeper = true
+				enderman = true
+
+			[light_sources.settings.entities.goblintraders]
+				vein_goblin_trader = true
+				goblin_trader = true
+
+			[light_sources.settings.entities.atmospheric]
+				passion_fruit_seed = true
+
+			[light_sources.settings.entities.hominid]
+				famished = true
+				juggernaut = true
+
+			[light_sources.settings.entities.nomansland]
+				living_urn = true
+
+			[light_sources.settings.entities.upgrade_aquatic]
+				thrasher = true
+				immortal_jellyfish = true
+				nautilus = true
+
+			[light_sources.settings.entities.enderscape]
+				rustle = true
+				rubblemite = true
+
+			[light_sources.settings.entities.wan_ancient_beasts]
+				surfer = true
+				paleontologist = true
+				eater = true
+				toxlacanth = true
+				glider = true
+				walker = true
+				soarer = true
+				crusher = true
+
+			[light_sources.settings.entities.takesapillage]
+				legioner = true
+				archer = true
+				skirmisher = true

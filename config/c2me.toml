@@ -76,7 +76,7 @@ globalExecutorParallelism = "default"
 	# (may cause incompatibility with other mods)
 	# 
 	# Set to false for the following reasons: 
-	# Incompatible with biolith@3.0.5 (*) (defined in c2me) 
+	# Incompatible with biolith@3.0.9 (*) (defined in c2me) 
 	useEndBiomeCache = "default"
 	# (Default: true) Whether to enable StructureWeightSampler optimizations to accelerate world generation
 	# 
@@ -142,6 +142,12 @@ globalExecutorParallelism = "default"
 	# Only applies when useLegacyScheduling is disabled.
 	# 
 	lowMemoryMode = "default"
+	# (Default: true) Whether to delay full chunk events to after full chunk future have been completed
+	# This restores the buggy behavior in NeoForge that the ecosystem have been relying on
+	# 
+	# Do not change this unless you know what you are doing
+	# 
+	delayFullChunkEvents = "default"
 
 [generalOptimizations]
 	# (Default: 100000) The task interval of mid-tick chunk tasks in nanoseconds (-1 to disable)  

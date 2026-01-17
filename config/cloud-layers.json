@@ -1,6 +1,6 @@
 {
   "enableMod": true,
-  "heightOffset": 0,
+  "heightOffset": 30,
   "useWorldOffset": false,
   "layers": [
     {

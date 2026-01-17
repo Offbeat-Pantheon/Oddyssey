@@ -44,7 +44,7 @@
 	endPortalUpdateTravelSound: true,
 	mirrorScreenEffectEnabled: true,
 	mirrorTooltipDisplayCoordinates: false,
-	mirrorTooltipDisplayDimension: true,
+	mirrorTooltipDisplayDimension: false,
 	mirrorTooltipDisplayDistance: true,
 	mirrorTooltipEnabled: true,
 	mirrorTooltipShiftToDisplay: false,

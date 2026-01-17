@@ -73,6 +73,8 @@
 	[mechanics.itemSharing]
 		#Enable: Press Shift+Chat while hovering an item stack in an inventory to post a hoverable link in chat.
 		enableItemSharing = true
+		#Enable debug logging for item sharing (shows detailed information in console for Chat Heads compatibility).
+		debug = false
 
 	#Campfires Ignite
 	[mechanics.campfiresIgnite]
@@ -81,14 +83,18 @@
 
 	#Tamed Teleport
 	[mechanics.tamedTeleport]
-		#Enable: Tamed entities actively following you will teleport with you when you teleport.
+		#Enable Tamed Teleport: teleport any tamed mob that is set to 'following' to your location once you're a certain amount of blocks away.
 		enabled = true
-		#Teleport your mount with you, keeping you mounted after teleport (when possible).
-		includeMount = true
-		#Blacklist of entity types that should never teleport with the player (resource locations).
-		blacklist = []
-		#Enable: Tamed followers will teleport to you when they fall far behind (approx. when you leave their loaded chunk).
-		teleportFollowersOnChunkLeave = true
+		#Distance in blocks beyond which tamed mobs will teleport to their owner.
+		# Default: 32.0
+		# Range: 8.0 ~ 128.0
+		distanceThreshold = 32.0
+		#Cooldown in ticks between teleportations for each tamed mob (20 ticks = 1 second).
+		# Default: 100
+		# Range: 20 ~ 1200
+		cooldownTicks = 100
+		#Show teleportation particles when tamed mobs teleport.
+		showParticles = true
 
 	#Speedy Wolves
 	[mechanics.speedyWolves]
@@ -128,7 +134,7 @@
 		#Enable coyote-time jump: allows jumping for a short time after falling off a block without jumping first.
 		enabled = true
 		#Duration in seconds that coyote-time jump remains available after falling off a block.
-		# Default: 2.0
+		# Default: 1.0
 		# Range: 0.1 ~ 10.0
 		duration = 2.0
 		#Distance in blocks the player must fall before coyote-time jump becomes available.
@@ -137,3 +143,106 @@
 		fallDistance = 0.5
 		#Enable debug logging for coyote time jump (shows detailed information in console).
 		debug = false
+
+	#Rapid Fire Jump
+	[mechanics.rapidFireJump]
+		#Enable rapid fire jump: hold the jump key to continuously execute jumps for quick navigation in 2-block gaps.
+		enabled = true
+		#Interval in ticks between rapid fire jumps when holding the jump key (20 ticks = 1 second).
+		# Default: 5
+		# Range: 1 ~ 20
+		intervalTicks = 5
+		#Enable debug logging for rapid fire jump (shows detailed information in console).
+		debug = false
+
+	#Leashed Teleport
+	[mechanics.leashedTeleport]
+		#Enable Leashed Teleport: leashed mobs follow players through any teleportation (commands, chorus fruit, ender pearls, portals, etc.).
+		enabled = true
+		#Allow leashed mobs to follow players across dimensions (nether portals, end portals, etc.).
+		allowCrossDimension = true
+		#Maximum number of leashed mobs that can follow a player through teleportation.
+		# Default: 12
+		# Range: 1 ~ 50
+		maxFollowers = 12
+		#Radius in blocks to search for leashed mobs around the player.
+		# Default: 48.0
+		# Range: 16.0 ~ 128.0
+		scanRadius = 48.0
+		#Number of attempts to find a safe placement spot for teleported mobs.
+		# Default: 16
+		# Range: 4 ~ 32
+		safePlacementTries = 16
+		#Base radius around player for safe placement attempts.
+		# Default: 2.5
+		# Range: 1.0 ~ 8.0
+		baseRadius = 2.5
+		#Maximum radius around player for safe placement attempts.
+		# Default: 5.0
+		# Range: 2.0 ~ 16.0
+		maxRadius = 5.0
+		#Re-attach leashes after teleporting mobs to ensure they stay connected.
+		postTeleportLeash = true
+		#Cooldown in ticks between teleportation processing for each player (prevents spam).
+		# Default: 10
+		# Range: 1 ~ 100
+		cooldownTicks = 10
+
+	#Chat Mentions
+	[mechanics.chatMentions]
+		#Enable Chat Mentions: typing @username or username in chat highlights their name and sends them a ping sound.
+		enabled = true
+		#Trigger modes: AT_NAME (@username), PLAIN_NAME (username)
+		triggerModes = ["AT_NAME", "PLAIN_NAME"]
+		#Make mention detection case-insensitive.
+		caseInsensitive = true
+		#Use word boundaries for mention detection (prevents 'jakub' matching 'hijakub').
+		wordBoundary = true
+		#Only highlight mentions for the mentioned player (others see normal text).
+		recipientOnlyHighlight = true
+		#Maximum number of mentions allowed per message.
+		# Default: 3
+		# Range: 1 ~ 10
+		maxMentionsPerMessage = 3
+		#Cooldown in milliseconds between mentions from the same sender.
+		# Default: 30000
+		# Range: 0 ~ 10000
+		cooldownMsPerSender = 10000
+		#Allow players to mention themselves.
+		allowSelfPing = false
+
+		#Style
+		[mechanics.chatMentions.style]
+			#Hex color for highlighting mentioned usernames (without #).
+			highlightColorHex = "FF3B30"
+			#Hover text shown when hovering over a mentioned username.
+			hoverText = "You were mentioned"
+
+		#Sound
+		[mechanics.chatMentions.sound]
+			#Sound event to play when mentioned.
+			soundEvent = "minecraft:block.note_block.pling"
+			#Sound source category.
+			soundSource = "players"
+			#Sound volume (0.0 to 1.0).
+			# Default: 0.9
+			# Range: 0.0 ~ 1.0
+			soundVolume = 0.9
+			#Sound pitch (0.5 to 2.0).
+			# Default: 1.2
+			# Range: 0.5 ~ 2.0
+			soundPitch = 1.2
+
+	#Navigator Compass
+	[mechanics.navigatorCompass]
+		#Enable Navigator Compass: Right-click a compass to set custom coordinates for navigation.
+		enabled = true
+		#Show distance to target coordinates in compass tooltip.
+		showDistance = true
+		#Show target coordinates in compass tooltip.
+		showCoordinates = true
+
+	#Respawn Anchor Anywhere
+	[mechanics.respawnAnchorAnywhere]
+		#Enable: Allow the Respawn Anchor to be used in any dimension, not just the Nether.
+		enabled = true

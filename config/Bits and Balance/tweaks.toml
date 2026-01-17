@@ -21,7 +21,7 @@
 
 	#Treasure Enchantment Gold Color
 	[tweaks.treasureEnchantmentGoldColor]
-		#Make beneficial treasure enchantments (Mending, Frost Walker, Soul Speed, Swift Sneak) display in gold color. Curses remain red.
+		#Make beneficial treasure enchantments display in gold color. Supports any treasure enchantment from any mod. Curses remain red.
 		enableTreasureEnchantmentGoldColor = false
 
 	#Armed Armor Stands
@@ -44,31 +44,10 @@
 		#Also apply redstone mirroring to touching trapdoors (chain up to 5).
 		includeTrapDoorsWithRedstone = true
 
-	#Improved Ladders
-	[tweaks.improvedLadders]
-		#Right-clicking a ladder with another ladder places it at the bottom of the chain.
-		enableLadderChainPlacement = true
-		#When on a ladder, looking down will make you slide down very quickly.
-		enableFastLadderSlide = true
-		#Fixed climb-down speed on ladders while looking down (blocks per tick).
-		# Default: 0.4
-		# Range: 0.05 ~ 1.0
-		fastLadderSlideSpeed = 0.4
-		#Minimum look-down angle in degrees to start scaling fast slide (0-90).
-		# Default: 45
-		# Range: 0 ~ 90
-		fastLadderLookDownMinDeg = 45
-		#Maximum look-down angle in degrees for full fast slide (0-90).
-		# Default: 90
-		# Range: 0 ~ 90
-		fastLadderLookDownMaxDeg = 90
-
 	#Curse Uses
 	[tweaks.curseUses]
 		#Pumpkins with Curse of Vanishing will not show the pumpkin overlay when worn by an entity (mainly for Players).
 		hidePumpkinOverlayOnVanishing = true
-		#Player Heads with Curse of Binding will show the player model of its owner when on an armor stand.
-		showOwnerModelOnArmorStandHead = true
 
 	#Despawn With Master
 	[tweaks.despawnWithMaster]
@@ -85,7 +64,7 @@
 	#Brushing XP Rewards
 	[tweaks.brushingXp]
 		#Spawn XP when finishing brushing a brushable block; scales with loot rarity.
-		enabled = true
+		enabled = false
 		#Minimum XP to spawn when brushing completes (inclusive).
 		# Default: 1
 		# Range: 0 ~ 100
@@ -112,3 +91,117 @@
 		# Default: 0
 		# Range: 0 ~ 100
 		shieldRaiseTime = 0
+
+	#Improved Climbables
+	[tweaks.improvedClimbables]
+		#Right-clicking a climbable block with a climbable item (ladder, vines, glow berries, etc.) places it at the bottom of the chain.
+		enableLadderChainPlacement = true
+		#When on a climbable block, looking down will make you slide down very quickly.
+		enableFastLadderSlide = true
+		#Fixed climb-down speed on climbable blocks while looking down (blocks per tick).
+		# Default: 0.4
+		# Range: 0.05 ~ 1.0
+		fastLadderSlideSpeed = 0.4
+		#Minimum look-down angle in degrees to start scaling fast slide (0-90).
+		# Default: 45
+		# Range: 0 ~ 90
+		fastLadderLookDownMinDeg = 45
+		#Maximum look-down angle in degrees for full fast slide (0-90).
+		# Default: 90
+		# Range: 0 ~ 90
+		fastLadderLookDownMaxDeg = 90
+
+	#Glowing Glowberries
+	[tweaks.glowingGlowberries]
+		#Give the Glowing effect to entities that consume glowberries.
+		enableGlowingGlowberries = true
+		#Duration of the Glowing effect in seconds when consuming glowberries.
+		# Default: 15
+		# Range: 1 ~ 300
+		glowingDuration = 15
+		#Duration of the Glowing effect in seconds for foxes when they hold glowberries.
+		# Default: 5
+		# Range: 1 ~ 300
+		foxGlowingDuration = 5
+
+	#Enderdragon Egg Always
+	[tweaks.enderdragonEggAlways]
+		#Ensures the Ender Dragon always drops a dragon egg when killed, not just the first time.
+		enableEnderdragonEggAlways = true
+		#If true, eggs spawn randomly within the configured radius. If false, eggs spawn at vanilla location (center of podium).
+		useRandomPlacement = false
+		#Radius in blocks around the End fountain where eggs can spawn (only used if useRandomPlacement is true).
+		# Default: 10
+		# Range: 1 ~ 50
+		spawnRadius = 10
+		#Delay in seconds after dragon death before the egg spawns.
+		# Default: 10
+		# Range: 1 ~ 60
+		spawnDelaySeconds = 10
+		#Show purple particle effects when the dragon egg spawns.
+		showParticles = true
+
+	#Sugarcane Sand
+	[tweaks.sugarcaneSand]
+		#Enable Sugarcane Sand: sugarcane grows 25% faster when planted on sand instead of grass/dirt.
+		enableSugarcaneSand = true
+
+	#More Mining XP
+	[tweaks.moreMiningXp]
+		#Enable More Mining XP: increase XP drops from mining ores (affects both vanilla and variant ores).
+		enabled = true
+
+		#Coal Ore XP
+		[tweaks.moreMiningXp.coal]
+			#Minimum XP dropped by coal ore (inclusive).
+			# Default: 1
+			# Range: 0 ~ 100
+			min = 1
+			#Maximum XP dropped by coal ore (inclusive).
+			# Default: 3
+			# Range: 0 ~ 100
+			max = 3
+
+		#Diamond Ore XP
+		[tweaks.moreMiningXp.diamond]
+			#Minimum XP dropped by diamond ore (inclusive).
+			# Default: 5
+			# Range: 0 ~ 100
+			min = 5
+			#Maximum XP dropped by diamond ore (inclusive).
+			# Default: 10
+			# Range: 0 ~ 100
+			max = 10
+
+		#Emerald Ore XP
+		[tweaks.moreMiningXp.emerald]
+			#Minimum XP dropped by emerald ore (inclusive).
+			# Default: 5
+			# Range: 0 ~ 100
+			min = 5
+			#Maximum XP dropped by emerald ore (inclusive).
+			# Default: 10
+			# Range: 0 ~ 100
+			max = 10
+
+		#Lapis Lazuli Ore XP
+		[tweaks.moreMiningXp.lapis]
+			#Minimum XP dropped by lapis lazuli ore (inclusive).
+			# Default: 4
+			# Range: 0 ~ 100
+			min = 4
+			#Maximum XP dropped by lapis lazuli ore (inclusive).
+			# Default: 8
+			# Range: 0 ~ 100
+			max = 8
+
+		#Redstone Ore XP
+		[tweaks.moreMiningXp.redstone]
+			#Minimum XP dropped by redstone ore (inclusive).
+			# Default: 2
+			# Range: 0 ~ 100
+			min = 2
+			#Maximum XP dropped by redstone ore (inclusive).
+			# Default: 6
+			# Range: 0 ~ 100
+			max = 6

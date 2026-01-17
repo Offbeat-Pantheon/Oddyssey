@@ -5,6 +5,7 @@
 		#Toggle model replacements for certain mobs
 		polarBearModelChange = true
 		foxModelChange = true
+		polarBearIncreasesHealth = true
 
 	#Primal Mobs Spawn - tweak natural spawn
 	#(Eagles only spawn on nests, tweak the nest spawn in world section)
@@ -247,3 +248,12 @@
 		#You can use biome tags too, just put a # before (e.g. "#minecraft:is_forest", "#nomansland:is_river")
 		#Default = []
 		eagleNestExtraBiomes = []
+
+#Misc Settings
+[misc]
+	#List of egg data: each entry is [block_id, entity_id].
+	#This is used for the nest block, for eggs that can hatch, add the block to the animal_egg tag to be placeable or to the next config
+	#Primal eggs are already defined
+	eggData = [["minecraft:turtle_egg", "minecraft:turtle"], ["minecraft:sniffer_egg", "minecraft:sniffer"], ["nomansland:tortoise_egg", "nomansland:tortoise"]]
+	#To add egg blocks directly instead of modifying the animal_egg tag
+	extraPlaceableEggs = []

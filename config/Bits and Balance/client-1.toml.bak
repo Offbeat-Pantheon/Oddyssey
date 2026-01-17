@@ -1,0 +1,102 @@
+#Client
+[client]
+
+	#Elder Guardian Appearance
+	[client.guardian]
+		#Disable the Elder Guardian appearance effect when Mining Fatigue is inflicted.
+		disableGuardianJumpscare = false
+
+	#Auto Walk / Controls
+	[client.autoWalk]
+		#Enable the Auto Walk keybind to toggle forward walking (enables Auto Jump while active).
+		enableAutoWalkKey = false
+
+	#Night Vision Improvement
+	[client.nightVision]
+		#Enable Night Vision fadeout instead of vanilla blinking.
+		enableNightVisionFade = true
+		#Seconds over which Night Vision should fade out before expiring.
+		# Default: 10
+		# Range: 1 ~ 30
+		nightVisionFadeSeconds = 10
+
+	#See Held Item
+	[client.seeHeldItem]
+		#Show your held item in first-person while riding entities (e.g., boats).
+		enableShowHeldItemWhenRiding = true
+
+	#Experience / Sounds
+	[client.experience]
+		#Enable the long/old level-up sound when reaching level 30.
+		enableLevel30OldSound = false
+
+	#Custom Splash Text
+	[client.splashText]
+		#Enable custom splash texts to randomly appear on the title screen.
+		enableCustomSplashTexts = true
+		#How many times to add each custom splash text to increase appearance odds. Higher = more likely to appear.
+		# Default: 2
+		# Range: 1 ~ 10
+		customSplashMultiplier = 3
+
+	#Usage Ticker
+	[client.usageTicker]
+		#Enable the Usage Ticker overlay that shows item counts in your inventory.
+		enabled = true
+		#Show armor slots in the Usage Ticker overlay. [WIP - Currently buggy]
+		showArmorSlots = false
+		#Invert the display order of the Usage Ticker overlay.
+		invert = false
+		#Horizontal offset for the Usage Ticker overlay (in pixels).
+		# Default: 0
+		# Range: -200 ~ 200
+		offsetX = 0
+		#Vertical offset for the Usage Ticker overlay (in pixels).
+		# Default: 0
+		# Range: -200 ~ 200
+		offsetY = 0
+		#Horizontal offset for armor slots in the Usage Ticker overlay (in pixels).
+		# Default: 0
+		# Range: -200 ~ 200
+		armorOffsetX = 0
+		#Vertical offset for armor slots in the Usage Ticker overlay (in pixels).
+		# Default: 0
+		# Range: -200 ~ 200
+		armorOffsetY = 0
+		#Enable debug messages for the Usage Ticker (useful for troubleshooting).
+		debug = false
+
+		#Armor Animation Settings
+		[client.usageTicker.armorAnimation]
+			#Starting Y position for helmet animation (pixels below screen bottom).
+			# Default: 50
+			# Range: 0 ~ 200
+			helmetStartY = 50
+			#Ending Y position for helmet animation (pixels above screen bottom).
+			# Default: 24
+			# Range: 0 ~ 200
+			helmetEndY = 24
+			#Starting Y position for chestplate animation (pixels below screen bottom).
+			# Default: 50
+			# Range: 0 ~ 200
+			chestplateStartY = 50
+			#Ending Y position for chestplate animation (pixels above screen bottom).
+			# Default: 24
+			# Range: 0 ~ 200
+			chestplateEndY = 24
+			#Starting Y position for leggings animation (pixels below screen bottom).
+			# Default: 50
+			# Range: 0 ~ 200
+			leggingsStartY = 50
+			#Ending Y position for leggings animation (pixels above screen bottom).
+			# Default: 24
+			# Range: 0 ~ 200
+			leggingsEndY = 24
+			#Starting Y position for boots animation (pixels below screen bottom).
+			# Default: 50
+			# Range: 0 ~ 200
+			bootsStartY = 50
+			#Ending Y position for boots animation (pixels above screen bottom).
+			# Default: 24
+			# Range: 0 ~ 200
+			bootsEndY = 24

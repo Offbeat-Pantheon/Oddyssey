@@ -1,0 +1,70 @@
+#Azalea Woodset Features
+[azaleaWoodset]
+	#Enable the azalea woodset (blocks, items, boats, recipes, etc.).
+	#When disabled:
+	#  - Items hidden from creative tabs
+	#  - All crafting recipes disabled
+	#  - No fuel values, flammability, or boat behavior
+	#Note: Blocks/items still exist and can be obtained via commands. Requires restart.
+	enableAzaleaWoodset = true
+	#Enable azalea logs in naturally-generated and sapling-grown azalea trees.
+	#When true: Azalea trees use azalea logs
+	#When false: Azalea trees use vanilla oak logs
+	#Changes take effect on server restart or /reload command.
+	enableAzaleaWoodGeneration = true
+
+#Ore Variants Features
+[oreVariants]
+	#Enable ore variants (andesite, diorite, granite, tuff variants for all vanilla ores).
+	#When enabled:
+	#  - Ore variant blocks are registered and available
+	#  - Ore variants will replace vanilla ores in world generation when touching variant stone types
+	#When disabled:
+	#  - Ore variant blocks are hidden from creative tabs
+	#  - No ore replacement occurs during world generation
+	#Requires restart.
+	enableOreVariants = true
+	#Enable parallel processing of ore variants for better performance.
+	#When enabled:
+	#  - Ore variant processing will use multiple CPU cores
+	#  - Significantly faster processing, especially with C2ME
+	#When disabled:
+	#  - Processing will use a single thread
+	#  - Lower CPU usage but slower processing
+	enableParallelProcessing = true
+	#Number of threads to use for parallel processing.
+	#Recommended: Leave at 0 to automatically use half the available CPU cores
+	#Set to 1 to force single-threaded processing
+	#Only used when parallel processing is enabled
+	# Default: 0
+	# Range: 0 ~ 64
+	threadCount = 0
+
+#Nether Gold Veins - Large nether gold ore deposits with gold blocks and raw gold blocks
+[netherGoldVeins]
+	#Enable nether gold vein generation in the Nether.
+	#When enabled: Large nether gold ore deposits will generate
+	#When disabled: No nether gold veins will generate
+	enableNetherGoldVeins = true
+
+#Nether Quartz Veins - Large nether quartz ore deposits
+[netherQuartzVeins]
+	#Enable nether quartz vein generation in the Nether.
+	#When enabled: Large nether quartz ore deposits will generate
+	#When disabled: No nether quartz veins will generate
+	enableNetherQuartzVeins = true
+
+#Coal Andesite Noodle Veins - Long, sinuous coal+andesite deposits in the Overworld
+[coalAndesiteVeins]
+	#Enable coal andesite noodle vein generation in the Overworld.
+	#When enabled: Long, winding veins of andesite with coal ore will generate
+	#When disabled: No coal andesite veins will generate
+	#Generates in: All Overworld biomes, Y: 16-320
+	enableCoalAndesiteVein = true
+
+#Nether Lava Springs - Control vanilla lava spring generation in the Nether
+[nether]
+	#Disable random lava springs in the Nether (ceiling drips, wall springs, etc.).
+	#When true: Removes vanilla lava spring generation from all Nether biomes
+	#When false: Vanilla lava springs generate normally (default)
+	disableNetherSurfaceLava = false

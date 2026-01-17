@@ -1,0 +1,21 @@
+{
+  "values": [
+    "minecraft:chorus_fruit",
+    {
+      "id": "atmospheric:passion_fruit",
+      "required": false
+    },
+    {
+      "id": "atmospheric:shimmering_passion_fruit",
+      "required": false
+    },
+    {
+      "id": "endergetic:bolloom_fruit",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:bejeweled_apple",
+      "required": false
+    }
+  ]
+}
